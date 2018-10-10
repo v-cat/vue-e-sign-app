@@ -1,0 +1,264 @@
+ .business .pad50 {
+   padding: 0px 30px;
+ }
+
+ .business .business-wid .padd50 {
+   padding: 90px 0px 50px 0px;
+ }
+
+ .business .last .business-wid-178 {
+   border-bottom: 0px;
+ }
+
+ .business .business-wid-178 {
+   /* margin: 20px 0px; */
+   border-bottom: 2px dashed #be936f20;
+   padding: 0px 0px 30px 0px;
+   width: 900px;
+   /* margin-right: 50px; */
+ }
+
+ .business .business-sign .business-job .business-produce-l img {
+   width: 180px;
+   float: left;
+ }
+
+ .business .business-wid {
+   width: 100%;
+   min-width: 900px;
+ }
+
+ .business .business-sign .show-text {
+   right: 40px;
+   width: 600px;
+   top: 10px;
+   text-align: left
+ }
+
+ /* 3 */
+
+ .business .item-icon-animate {
+   background: url(../../../assets/copyImg/14.png) center no-repeat;
+   background-size: 182px 32px;
+ }
+
+ .business .item-icon {
+   position: relative;
+   margin-top: 12px;
+   width: 100%;
+   height: 32px;
+ }
+
+ .business .e_contract-value ul li {
+   margin: 0px 23px 24px 0;
+   width: 275px;
+   height: 210px;
+   background: rgba(190, 146, 111, .2);
+ }
+
+ .business .e_contract-value ul li .e_contract-value-content {
+   font-size: 13px;
+   text-align: left;
+   margin: 5px 15px;
+ }
+
+ .business .e_signature-title {
+   font-size: 24px;
+   font-size: 1.71428571rem;
+   line-height: 24px;
+   padding-left: 16px;
+   border-left: 4px solid #be926f;
+   color: #000;
+   text-align: left;
+ }
+
+ .business .margintop30 {
+   margin-top: 30px;
+ }
+
+ /* 6*/
+
+ .business .industry-press {
+   border: 1px solid #be936f20;
+   width: 898px;
+   position: relative;
+   margin: 60px 0px 20px;
+   border-radius: 3px;
+ }
+
+ .business .industry-press-text p {
+   line-height: 25px;
+   margin-top: 10px;
+   color: #2a2a2a;
+   font-size: 14px;
+ }
+
+ .business .application-text_p {
+   padding: 20px 0px;
+   border-bottom: 1px dashed #b9b9b9;
+ }
+
+ .business .industry-press-text p span {
+   color: #be926f;
+   font-size: 16px;
+ }
+
+ .business .industry-press-text {
+   /* display: inline-block; */
+   width: 180px;
+   padding: 40px 20px;
+   /* height: 408px; */
+   background: #be936f20;
+   border-right: 1px solid #be936f20;
+   text-align: left;
+ }
+
+ .business .industry-press img {
+   position: absolute;
+   width: 600px;
+   right: 30px;
+   top: 20%;
+ }
+
+ .business img {
+   vertical-align: middle;
+   border: 0;
+ }
+
+ /* 5 */
+
+ .business .ty_signature-sence {
+   margin: 24px 0 65px;
+ }
+
+ .business .ty_signature-sence p {
+   text-align: left;
+   color: #999;
+   margin-bottom: 24px;
+ }
+
+ .business p {
+   margin: 0 0 10px;
+ }
+
+ .business .ty_signature-sence ul {
+   text-align: center;
+ }
+
+ .business li,
+ .business ul {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+ }
+
+ .business .ty_signature-sence ul li {
+   background: url(../../../assets/copyImg/7.png) 50% no-repeat;
+   background-size: 120%;
+   transition: background-size .3s;
+ }
+
+ .business .ty_signature-sence ul li:hover {
+   background-size: 100%;
+   transition: background-size .3s;
+ }
+
+ .business .ty_signature-sence ul li {
+   float: left;
+   width: 286px;
+   height: 220px;
+   margin: 14px 7px 0px 7px;
+   line-height: 30px;
+   font-size: 15px;
+   font-weight: 400;
+   color: #fff;
+   text-align: center;
+ }
+
+ .business .ty_signature-sence ul li strong {
+   position: relative;
+   display: inline-block;
+   top: 20%;
+   font-size: 24px;
+   /* color: #be926f; */
+   /* margin: 40px 0px; */
+ }
+
+ .business .ty_signature-sence ul li span {
+   display: inline-block;
+   font-size: 14px;
+   font-weight: 400;
+   margin: 0px 15px;
+   text-align: left;
+   line-height: 17px;
+   color: white;
+ }
+
+ .business .ty_signature-sence ul li strong span:first-child {
+   margin: 10px 0px;
+ }
+
+ /* 行业背景 */
+
+ .business .e_signature-function {
+   margin: 38px 0 72px;
+ }
+
+ .e_signature-function ul {
+   text-align: center;
+ }
+
+ .business .e_signature-function ul li {
+   float: left;
+   color: #333;
+   font-size: 18px;
+   padding: 24px 24px 0px 12px;
+
+ }
+
+ .business .row .left-table-content {
+   font-size: 15px;
+   margin-top: 60px;
+   padding: 0px 18px;
+ }
+
+ .business .col-li {
+   width: 414px;
+ }
+
+ .business .ty_signature-function .redcircle {
+   display: inline-block;
+   text-align: left;
+   float: left;
+   width: 5px;
+   height: 5px;
+   margin: 5px;
+   line-height: 20px;
+   border-radius: 4px;
+   border: 2px solid #be926f;
+   /* margin-right: 8px; */
+ }
+
+ .business .e_signature-function ul li .function-tags {
+   /* height: 80px; */
+   padding: 0px 0px 20px 0px;
+   text-align: left;
+   border: 1px solid #dec9b8;
+ }
+
+ .business .e_signature-function ul li .e_signature-function-img {
+   background: url(../../../assets/copyImg/5.png) no-repeat;
+ }
+
+ .business .e_signature-function-img {
+   float: left;
+   width: 36px;
+   height: 36px;
+   margin: 16px 14px 8px 14px;
+ }
+
+ .business .e_signature-function-content {
+   float: left;
+   height: 60px;
+   line-height: 68px;
+ }

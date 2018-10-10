@@ -1,0 +1,497 @@
+* {
+  padding: 0;
+  list-style: none;
+}
+
+#person {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+/*  导航条 */
+.fixed {
+  z-index: 1;
+  opacity: 1 !important;
+}
+
+.personalcenter-head .navigation-back {
+  position: fixed;
+  background-color: black;
+  width: 100%;
+  opacity: 0.5;
+  height: 58px;
+  margin-top: -58px;
+}
+
+.homePageImg {
+  width: 100%;
+  height: 320px;
+  margin-top: -58px;
+}
+
+.navigationBar-middle {
+  position: relative;
+  margin-left: auto !important;
+  margin-right: auto;
+  width: 1200px;
+  height: 700px;
+  margin-bottom: 120px;
+  margin-top: -310px;
+}
+
+.navigationBar {
+  margin-left: auto !important;
+  margin-right: auto;
+  width: 1200px;
+}
+
+.personal-header {
+  margin-left: auto !important;
+  margin-right: auto;
+  position: relative;
+  width: 1200px;
+  height: 100%;
+}
+
+.middle-squear {
+  margin-top: -58px;
+  position: fixed;
+  width: 1200px;
+  height: 100%;
+  background-color: rgb(255, 255, 255, 0.2);
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* 个人信息 */
+.person-infor[data-v-4f3be452] {
+  margin: 70px 190px 14px 190px;
+  height: 210px;
+  width: 200px;
+}
+
+.person-service {
+  background-image: url(../../assets/images/个人首页1.png);
+  width: 100px;
+  height: 104px;
+}
+
+.person-information {
+  margin-top: -10px;
+  font-size: 16px;
+  color: #ffffff;
+  width: 180px;
+  position: absolute;
+  text-align: left;
+}
+
+.person-information li {
+  margin: 2px;
+}
+
+.person-information .sign-man {
+  text-decoration: none;
+  color: #f15858;
+}
+
+.person-information .sign-man:hover {
+  color: #ffc697
+}
+
+.person-time {
+  width: 225px;
+}
+
+.contract-world2:hover,
+.person-time h2 .sign-file:hover {
+  color: #be926f;
+}
+
+.person-information li .unverified {
+  float: right;
+  margin: -25px -46px -20px -10px;
+  font-size: 12px;
+  padding: 3px 12px;
+  line-height: 10px;
+  width: 36px;
+  height: 10px;
+  text-align: center;
+  border-radius: 19px;
+}
+
+.cored {
+  border: 1px solid #f15858;
+  color: #f15858;
+}
+
+.coyellow {
+  border: 1px solid #f3c49d;
+  color: #f3c49d;
+}
+
+.person-information li .nverified:hover {
+  background: #be926f;
+}
+
+/* 签发文件 */
+.person-sign {
+  float: right;
+  margin: -140px 150px 0px 0px;
+  width: 280px;
+  height: 94px;
+}
+
+.person-sign-img1 {
+  display: inline-block;
+  background-image: url(../../assets/images/个人首页2右小.png);
+  width: 110px;
+  height: 48px;
+}
+
+.person-sign-img2 {
+  display: inline-block;
+  float: right;
+  margin: -3px 0px 0px 60px;
+  background-image: url(../../assets/images/个人首页3右小.png);
+  width: 110px;
+  height: 48px;
+}
+
+.person-sign-img1:hover {
+  background-image: url(../../assets/images/个人首页2右.png);
+}
+
+.person-sign-img2:hover {
+  background-image: url(../../assets/images/个人首页3右.png);
+}
+
+.person-sign-img3 {
+  display: inline-block;
+  float: right;
+  margin: -46px 137px 0px 10px;
+  background-color: #b3b3b3;
+  width: 3px;
+  height: 40px;
+}
+
+.person-sign-icons {
+  margin: 0px 0px 0px 20px;
+  top: -41px;
+  position: relative;
+  fill: #ffffff;
+  width: 300px;
+  height: 50px;
+}
+
+.person-sign-infor span {
+  line-height: 30px;
+}
+
+.person-sign-icon1,
+.person-sign-icon2 {
+  margin: 0px 0px -10px 0px;
+  width: 30px;
+  height: 30px;
+}
+
+.person-sign-icon1:hover,
+.person-sign-icon2:hover {
+  fill: #be926f;
+}
+
+.person-sign-infor {
+  width: 125px;
+  height: 30px;
+  float: left;
+}
+
+.person-time h2 .sign-file {
+  text-decoration: none;
+  color: #b2703b;
+}
+
+.person-time-infor {
+  float: right;
+  text-align: right;
+  margin: -60px 0px 0px 0px;
+  color: white;
+}
+
+/* 签章状态 */
+.sign-ok,
+.sign-her,
+.sign-my,
+.sign-drafts {
+  background-image: url(../../assets/images/个人首页F.png);
+  background-size: 80px 65px;
+}
+
+.sign-ok1,
+.sign-her1,
+.sign-my1,
+.sign-drafts1 {
+  background-image: url(../../assets/images/个人首页E.png);
+  background-size: 80px 119px;
+}
+
+.sign-news {
+  width: 1200px;
+  margin-top: -29px;
+  height: 135px;
+}
+
+.sign-news-inf {
+  position: absolute;
+  width: 800px;
+  height: 100px;
+  margin-left: 200px;
+}
+
+.sign-news-infor {
+  float: left;
+}
+
+.sign-my,
+.sign-her,
+.sign-ok,
+.sign-drafts {
+  margin: 2px 22px;
+  width: 80px;
+  height: 65px;
+  display: inline-block;
+}
+
+.sign-my-words,
+.sign-her-words,
+.sign-ok-words,
+.sign-drafts-words {
+  color: #111111;
+  width: 90px;
+  height: 10px;
+  margin: -14px -2px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.sign-my-words .sign-my-number,
+.sign-her-words .sign-her-number,
+.sign-ok-words .sign-ok-number,
+.sign-drafts-words .sign-drafts-number {
+  margin: 5px;
+  font-size: 15px;
+}
+
+.sign-style {
+  margin: 2px 22px;
+  width: 80px;
+  height: 119px;
+  display: inline-block;
+}
+
+.sign-style-words {
+  color: #111111;
+  width: 10px;
+  height: 10px;
+  line-height: 15px;
+  margin: -10px auto;
+  font-size: 12px;
+}
+
+.sign-style-number {
+  display: inline-block;
+  margin: 5px -2px;
+  font-size: 15px;
+}
+
+/* 待我签 */
+.sign-my-icon {
+  /* fill: #01e09e; */
+  fill: #ffffff;
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
+
+/* 待他签 */
+.sign-her-icon {
+  /* fill: #ff7243; */
+  fill: #ffffff;
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
+
+/* 已完成 */
+.sign-ok-icon {
+  /* fill: #2f42fb; */
+  fill: #ffffff;
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
+
+/* 草稿箱 */
+.sign-drafts-icon {
+  fill: #ffffff;
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
+
+/* tips */
+.sign-tip {
+  float: right;
+}
+
+.sign-tips {
+  background-image: url(../../assets/images/个人首页G.png);
+  background-size: 269px 65px;
+  width: 269px;
+  height: 65px;
+  text-align: center;
+  display: inline-block;
+}
+
+.sign-tips-icons {
+  margin: 10px 0px;
+}
+
+.sign-tips-icon {
+  margin: 0px 0px -10px 0px;
+  fill: #ffffff;
+  width: 30px;
+  height: 30px;
+}
+
+.sign-tips-words {
+  color: #111111;
+  width: 90px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.sign-tips1 {
+  background-image: url(../../assets/images/个人首页H.png);
+  background-size: 269px 119px;
+  width: 269px;
+  height: 119px;
+  text-align: center;
+  display: inline-block;
+}
+
+.contract {
+  width: 1200px;
+  height: 20px;
+  font-size: 15px;
+  margin: 10px auto;
+}
+
+.contract-world1 {
+  float: left;
+  padding-left: 150px;
+}
+
+.contract-world2 {
+  text-decoration: none;
+  color: #111111;
+  float: right;
+  padding-right: 150px;
+}
+
+.contract-my-back {
+  background-color: rgb(255, 255, 255, 0.5);
+  color: #797878;
+  margin: 10px 0px;
+  width: 960px;
+  height: 95px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 20px;
+  transition: all .4s;
+}
+
+.contract-my-back:hover {
+  box-shadow: 5px 3px 10px rgb(121, 121, 121, 0.5);
+}
+
+.conHead {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin: 0;
+  padding: 5px 0;
+  border-bottom: .5px solid #dbdbdb;
+  font-weight: 400;
+}
+
+.conHead>span {
+  float: left;
+  text-align: left;
+  margin-left: 20px;
+  line-height: 25px;
+  width: calc(100% - 340px);
+}
+
+.iconBtn {
+  float: right;
+  width: 310px
+}
+
+.search-infor-a {
+  text-decoration: none;
+  font-size: 13px;
+  padding: 2px 8px;
+  line-height: 23px;
+  font-size: 12px;
+  width: 45px;
+  height: 23px;
+  border: 1px solid #be926f;
+  color: #be926f;
+  background: transparent none;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+.search-infor-a:hover {
+  color: #ffffff;
+  background: #be926f;
+}
+
+.conBody {
+  height: 50px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  -webkit-padding-start: 0;
+}
+
+.conBody>li:first-child {
+  padding-left: 0;
+}
+
+.conBody>li {
+  float: left;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.conBody>li>h4 {
+  font-size: 16px;
+  margin: 6px 0 0;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.lineheight {
+  font-size: 19px;
+  line-height: 95px
+}
+
+.person-time-infor h5,
+.person-time-infor h6,
+.person-information ul li h5 {
+  padding: 0px;
+  height: 0px;
+}

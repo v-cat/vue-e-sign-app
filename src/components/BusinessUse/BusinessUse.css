@@ -1,0 +1,146 @@
+.jumbotron {
+  background: 0 0;
+  width: 1200px;
+  color: #fff;
+  padding-top: 100px;
+}
+
+.container {
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.banner {
+  background-image: url(../../assets/copyImg/tu2.jpg);
+  background-position: 0;
+  margin-top: -60px;
+  width: 100%;
+  padding-top: 50px;
+  position: relative;
+  background-size: cover;
+  background-position: center top;
+  height: 400px;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.jumbotron h1 {
+  font-size: 30px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.jumbotron h2 {
+  font-size: 16px;
+  margin-bottom: 20px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, .8);
+}
+
+.btn {
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.jumbotron .btn {
+  width: 150px;
+}
+
+.jumbotron .btn a {
+  line-height: 40px;
+  color: white;
+  border: 1px solid white;
+  padding: 2px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.jumbotron .btn a:hover {
+  background: rgb(255, 198, 151, 0.3);
+  border: 1px solid #ffe2ca;
+  color: white;
+  /* background: #be926f;
+  color: white;
+  border: 1px solid #be926f; */
+}
+
+/* 行业应用 */
+.screen-common {
+  margin-bottom: 100px;
+  position: relative;
+}
+
+.seal .for-future a {
+  margin: 10px 0;
+  display: inline-block;
+}
+
+.target-a {
+  position: absolute;
+  height: 0;
+  top: -80px;
+}
+
+.screen-common .screen-title {
+  padding-top: 70px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.screen-common .screen-title h2 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.dark-grey {
+  color: #333 !important;
+}
+
+.screen-common p {
+  line-height: 24px;
+}
+
+.screen-common .screen-title p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #999;
+  padding: 0 15px;
+}
+
+/* .screen-common>.container {
+  padding: 60px 0 80px 0;
+} */
+.screen-common .minx-produce-rd {
+  padding: 0;
+}
+
+.screen-common .e_contract-value ul li {
+  width: 274px;
+  height: 160px;
+  /* background: rgba(190, 146, 111, .2); */
+  /* background: url(../../assets/copyImg/13.png); */
+  /* background-size: 274px 160px */
+}
+
+.business-link {
+  display: inline-block;
+  width: 274px;
+  height: 160px;
+  background: rgba(190, 146, 111, .2);
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.screen-common .e_contract-value ul li .e_contract-value-title {
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold
+}

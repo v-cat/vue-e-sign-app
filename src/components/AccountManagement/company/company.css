@@ -1,0 +1,388 @@
+ #person {
+   overflow-x: hidden;
+   overflow-y: hidden;
+ }
+
+ * {
+   padding: 0;
+   list-style: none;
+ }
+
+ .contract-information .contract-infor-back {
+   background: no-repeat url(../../../assets/images/上传合同3.png);
+   height: 36px;
+   width: 160px;
+   margin-left: 0px;
+   float: left;
+ }
+
+ .contract-information span {
+   font-size: 18px;
+ }
+
+ .contract-infor-squar {
+   width: 1000px;
+   height: 45px;
+   border-bottom: 2px solid #be926f;
+ }
+
+ /* 签署方信息 */
+ .contract-information .contract-infor-back2 {
+   background: url(../../../assets/images/上传合同4.png);
+   height: 36px;
+   width: 180px;
+   margin-left: 0px;
+   float: left;
+ }
+
+ .contract-information .contract-inforword1 {
+   margin: 3px -150px;
+   float: left;
+   font-size: 18px;
+ }
+
+ .contract-infor-form {
+   width: 500px;
+   margin: 0px auto;
+ }
+
+ /* 企业认证介绍 */
+ .menu {
+   font-size: 12px;
+   height: 70px;
+
+ }
+
+ .menu .el-form-item.is-error .el-input__inner {
+   border: 0.1px solid #dccfc3 !important;
+ }
+
+ .menu input:focus {
+   background-color: #faf2ea !important;
+   border: 1px solid #be926f !important;
+ }
+
+ .uplodebtn {
+   float: left;
+   margin: -13px 0px 0px -289px;
+ }
+
+ .uplodebtn i {
+   width: 100px;
+   height: 30px;
+   line-height: 30px;
+ }
+
+ .el-upload__tip {
+   margin: -48px 0px 0px 40px;
+ }
+
+ .agree {
+   text-align: left
+ }
+
+ .agreeBtn {
+   margin: -6px 0px 0px 30px;
+   float: right;
+ }
+
+ .content .search-infor-a,
+ .contract-infor-form .search-infor-a {
+   padding: 0px;
+   text-decoration: none;
+   font-size: 13px;
+   display: inline-block;
+   line-height: 23px;
+   font-size: 13px;
+   width: 60px;
+   height: 26px;
+   border: 1px solid #be926f;
+   color: #be926f;
+   background: transparent none;
+   border-radius: 5px;
+   margin: 0 20px;
+ }
+
+ .search-infor-a:hover {
+   color: #ffffff;
+   background: #be926f;
+ }
+
+ /* 背景 */
+ .basic-infor {
+   width: 1200px;
+   margin: 19px auto;
+ }
+
+ .basic-my-seal {
+   background-color: #f2f2f2;
+   margin: 0px 0px 60px 0px;
+   left: 1px;
+   width: 1199px;
+   border: 0.5px solid #d6c7bb;
+   border-radius: 20px;
+ }
+
+ .basic-my {
+   position: absolute;
+   background: url(../../../assets/images/印章1.png);
+   width: 1000px;
+   height: 26px;
+   margin: -17px -4px;
+ }
+
+ .contract-my {
+   background: url(../../../assets/images/印章2.png);
+   width: 1000px;
+   height: 26px;
+   margin: -10px -5px;
+ }
+
+ .basic-my-seal table {
+   padding: 20px 0px 40px 0px;
+   margin-bottom: 20px;
+   margin-top: 40px;
+   padding-right: 50px;
+ }
+
+ .search-infor-person {
+   color: black;
+   text-decoration: none;
+   padding: 0px 40px;
+   float: left;
+   font-size: 19px;
+ }
+
+ .search-infor-person:hover {
+   color: #be926f;
+   border-bottom: 1px solid #be926f;
+ }
+
+ .search-infor-button {
+   text-decoration: none;
+   font-size: 13px;
+   display: inline-block;
+   line-height: 23px;
+   font-size: 13px;
+   width: 60px;
+   height: 23px;
+   border: 1px solid #be926f;
+   color: #be926f;
+   background: transparent none;
+   border-radius: 5px;
+   margin: 0 10px;
+ }
+
+ .search-infor-button:hover {
+   color: #ffffff;
+   background: #be926f;
+ }
+
+ .activeLink {
+   color: #be926f;
+ }
+
+ /* 点击认证 */
+ .enterprise {
+   border-radius: 10px;
+   width: 1200px;
+   margin: 40px auto;
+   min-height: 100%;
+   color: #be926f;
+   border-radius: 20px;
+ }
+
+ .strong {
+   font-weight: 700;
+   text-align: left;
+ }
+
+ .marginbottom {
+   margin-bottom: 40px;
+ }
+
+ p {
+   margin: 0 0 10px;
+   font-size: 18px;
+ }
+
+ .enterprise .upgrade {
+   margin-bottom: 50px;
+ }
+
+ .el-row {
+   position: relative;
+   box-sizing: border-box;
+ }
+
+ .enterprise .upgrade .block-item {
+   background: rgb(250, 250, 250, 0.7);
+   border: 0.5px solid #d9c2ae;
+   border-radius: 10px;
+   width: 1199px;
+ }
+
+ .linear-border {
+   width: 100%;
+   height: 6px;
+   border-radius: 2px 2px 0 0;
+ }
+
+ .enterprise .upgrade .block-item .content {
+   padding: 25px 45px 45px 45px;
+ }
+
+ .enterprise .upgrade .block-item .timetree {
+   margin-top: 20px;
+   margin-left: 8px;
+ }
+
+ .timetree .item {
+   position: relative;
+   padding-left: 20px;
+ }
+
+ .timetree .item>span {
+   float: left;
+ }
+
+ .clearfix .strong {
+   margin-top: -3px;
+   color: #333;
+ }
+
+ .timetree.number .item .circle {
+   width: 20px;
+   height: 20px;
+   left: -10px;
+   top: -2px;
+   font-size: 12px;
+   font-style: normal;
+   text-align: center;
+   line-height: 16px;
+   color: #999;
+   transform: scale(.8);
+ }
+
+ .timetree.number .item .circle i {
+   line-height: 20px;
+ }
+
+ .timetree .item .circle {
+   width: 10px;
+   height: 10px;
+   position: absolute;
+   top: 0;
+   left: -5px;
+   background-color: #fff;
+   border: 1px solid #999;
+   border-radius: 60px;
+ }
+
+ .enterprise .upgrade .block-item .timetree .item {
+   padding-bottom: 30px;
+ }
+
+ .timetree .item:last-child {
+   border: none;
+ }
+
+ .orange-text {
+   color: #ff663b;
+ }
+
+ .timetree .item:last-child {
+   border: none;
+ }
+
+ a {
+   cursor: pointer;
+   text-decoration: none;
+   background-color: transparent;
+ }
+
+ .el-button--primary {
+   margin: 15px 0px 0px 0px;
+   padding: 5px 8px;
+   color: #fff;
+   background-color: #be926f;
+   border-color: #be926f;
+ }
+
+ .black-text {
+   margin: 10px;
+   color: #333;
+ }
+
+ .enterprise .utility .item {
+   background: rgb(250, 250, 250, 0.3);
+   border: 0.5px solid #dec9b8;
+   position: relative;
+   height: 140px;
+   padding: 25px 90px 0 34px;
+   border-radius: 10px;
+
+   margin: 10px 0px;
+
+   text-align: left;
+ }
+
+ .enterprise .utility .item .title {
+   font-size: 16px;
+   color: #333
+ }
+
+ .enterprise .utility .item .tip {
+   font-size: 14px;
+   color: #ababab;
+ }
+
+ .enterprise .utility .item .bg {
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   width: 90px;
+   height: 90px;
+   background-image: url(../../../assets/images/beijing.png);
+   background-size: 180px 360px;
+   background-repeat: no-repeat;
+   border-radius: 0px 0px 5px 0px;
+   margin: 2px;
+ }
+
+ /* button */
+ .cancel-button {
+   text-decoration: none;
+   font-size: 13px;
+   display: inline-block;
+   line-height: 23px;
+   font-size: 13px;
+   width: 60px;
+   height: 26px;
+   border: 1px solid #be926f;
+   color: #be926f;
+   background: transparent none;
+   border-radius: 5px;
+   margin: 0 20px;
+ }
+
+ .join-button:hover {
+   border: 1px solid #be936f53;
+   background: #be936fbd;
+ }
+
+ .margin100 {
+   margin-bottom: 100px;
+ }
+
+ .company-words {
+   padding: 0px 0px 15px 0px;
+   color: red;
+   font-size: 18px;
+ }
+
+ .company-el-form {
+   /* margin-top: 15px; */
+   border: 1px dashed #be926f;
+   border-radius: 10px;
+ }

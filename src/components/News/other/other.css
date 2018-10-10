@@ -1,0 +1,79 @@
+/* 表格 */
+.select-head {
+  background: #ffffff;
+  width: 1160px;
+  height: 30px;
+  padding: 10px 0px;
+  margin: 30px 0px 10px 20px;
+}
+
+.contract-my-back {
+  background-color: rgba(255, 255, 255, 0.3);
+  margin: 20px 0px;
+  width: 1200px;
+  height: 500px;
+  text-align: center;
+  display: inline-block;
+  border: 0.5px solid #dec9b8;
+  color: #be926f;
+  border-radius: 20px;
+}
+
+.contract-my-text {
+  z-index: -1;
+  width: 1198px;
+}
+
+.New-select {
+  float: left;
+  margin: 0px 7px;
+  width: 200px;
+  position: relative;
+}
+
+.New-button {
+  width: 300px;
+  margin-left: 200px;
+  margin-top: 2px;
+  position: absolute;
+}
+
+.New-seal {
+  margin: 0px 20px;
+}
+
+.search-infor-btn {
+  text-decoration: none;
+  font-size: 13px;
+  padding: 2px 5px;
+  line-height: 23px;
+  font-size: 12px;
+  width: 45px;
+  height: 23px;
+  border: 1px solid #be926f;
+  color: #be926f;
+  background: transparent none;
+  border-radius: 5px;
+  margin: 0 3px;
+}
+
+.search-infor-btn:hover {
+  color: #ffffff;
+  background: #be926f;
+}
+
+.active {
+  color: #be926f !important;
+  border-bottom: 1px solid #be926f;
+}
+
+.contract-my-text .el-table th>.cell {
+  text-align: center !important
+}
+
+.contract-my-page {
+  margin-bottom: 100px;
+  width: 1200px;
+  height: 80px;
+  margin-left: auto;
+}

@@ -1,0 +1,247 @@
+body {
+  overflow-y: auto;
+  padding-right: 0;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  color: #333;
+  font-weight: 400;
+}
+
+.lx-container {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.product-animation-new-hu {
+  position: absolute;
+  top: 11%;
+}
+
+.product-animation-new-hu .product-font-new-hu {
+  color: #fff;
+  font-size: 32px;
+  margin-bottom: 28px;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.product-animation-new-hu .product-font-size-new-hu {
+  color: #fff;
+  font-size: 22px;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+/* 1 */
+.product-introduction .product-tab2-bg {
+  background-color: #f5f5f5;
+  height: 560px;
+  padding-top: 90px;
+}
+
+.product-introduction .product-quick-new-hu {
+  font-size: 24px;
+  color: #333;
+}
+
+.product-introduction .product-hr-new-hu {
+  margin-top: 10px;
+  width: 46px;
+  border-top: 4px solid #be926f;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eee;
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+.col-xs-6 {
+  width: 50%;
+}
+
+.col-xs-6,
+.col-xs-4 {
+  float: left;
+}
+
+.col-xs-6,
+.col-xs-4 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.product-introduction .product-tab2-bg .product-padding-new-hu {
+  padding: 80px 0 55px;
+}
+
+.product-padding-new-hu img {
+  vertical-align: middle;
+}
+
+.product-padding-new-hu img {
+  border: 0;
+}
+
+.col-xs-offset-3 {
+  margin-left: 25%;
+}
+
+.product-introduction .product-tab2-bg .service-pad {
+  display: table;
+  padding-left: 32px;
+}
+
+.product-introduction .product-tab2-bg .product-p-new-hu {
+  float: left;
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+  margin: 2px 0 10px;
+}
+
+.product-introduction .product-tab2-bg .product-p1-new-hu {
+  margin-top: 5px;
+  font-size: 12px;
+  color: #959595;
+  letter-spacing: 1px;
+}
+
+.product-introduction .product-tab2-bg .product-a-new-hu {
+  float: right;
+  color: #be926f;
+  border: 1px solid #be926f;
+  border-radius: 4px;
+  padding: 2px 10px;
+  margin-left: 115px;
+  text-decoration: none;
+}
+
+.product-introduction .product-tab2-bg .product-a-new-hu:hover {
+  color: #fff;
+  background: #be926f;
+}
+
+a {
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.text-left {
+  text-align: left;
+}
+
+/* 3 */
+.product-introduction .text-center .btnActive {
+  background-color: #be926f;
+  color: #fff;
+}
+
+.product-introduction .btnClass {
+  border: 1px solid #be926f;
+  background-color: #fff;
+  color: #be926f;
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 20px;
+}
+
+/* person */
+/* person */
+.product-introduction .product-padding1-new-hu {
+  padding-top: 10px;
+  margin-bottom: 130px;
+}
+
+。Service .text-center {
+  text-align: center;
+}
+
+.product-introduction .col-xs-2 {
+  float: left;
+  min-height: 1px;
+  width: 180px;
+  padding: 0 10px;
+}
+
+.product-introduction .service-border-hu {
+  border: 1px solid #dec9b8;
+  border-radius: 10px;
+  padding: 1px;
+}
+
+.product-introduction .service-border-hu .box-head-h {
+  background-color: #dec9b8;
+  border: 1px solid #dec9b8;
+  border-radius: 10px 10px 0px 0px;
+  height: 50px;
+  line-height: 50px;
+}
+
+.product-introduction .service-border-hu .service-box-pad-hu {
+  padding: 1vh 0 3vh;
+}
+
+.product-introduction .service-border-hu .manage-info-mar-h {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.product-introduction .service-border-hu .manage-info-mar-h .display-inline {
+  display: inline-block;
+}
+
+.product-introduction .service-border-hu .manage-info-mar-h .display-inline .text-l {
+  float: left;
+  margin-top: 10px;
+}
+
+.product-introduction .service-border-hu .manage-info-mar-h .display-inline .text-r {
+  float: left;
+  font-size: 35px;
+}
+
+.service-fw-hu {
+  color: #333;
+  font-weight: 400;
+}
+
+b,
+strong {
+  font-weight: 700;
+}
+
+.product-introduction .service-border-hu .service-mar-hu {
+  margin: 1vh 0 3.5vh;
+}
+
+.product-introduction .service-border-hu .buy-btn-hu {
+  border: 1px solid #be926f;
+  background-color: #be926f;
+  color: #fff;
+}
+
+.product-introduction .service-border-hu .service-btn-hu {
+  border-radius: 4px;
+  line-height: 34px;
+  font-size: 16px;
+  padding: 5px 18px;
+}

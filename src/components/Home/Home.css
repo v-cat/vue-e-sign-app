@@ -1,0 +1,622 @@
+* {
+  padding: 0;
+  list-style: none;
+}
+
+#home {
+  height: 100%;
+}
+
+/* 首页 */
+.home-b {
+  position: relative;
+}
+
+/* .el-carousel__item h3 {
+  color: #475669;
+  font-size: 14px;
+  opacity: 0.75;
+  line-height: 150px;
+  margin: 0;
+} */
+
+/* 
+.el-carousel__item:nth-child(2n) {
+  background-color: #99a9bf;
+} */
+
+/* 
+.el-carousel__item:nth-child(2n+1) {
+  background-color: #d3dce6;
+} */
+
+.block,
+  {
+  position: absolute;
+}
+
+.home-b,
+.block,
+.block .el-carousel,
+.block .el-carousel__container {
+  width: 100%;
+  height: 100%;
+}
+
+.block .el-carousel__indicators {
+  margin: 70px 0px;
+}
+
+.homePage {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.homePageHead {
+  /* top: 0;
+  left: 0; */
+  /* background: #009eff; */
+  width: 1200px;
+  height: 800px;
+  margin: 0 auto;
+}
+
+.home-top {
+  top: 0;
+  z-index: 22;
+  position: absolute;
+  /* position: relative; */
+  width: 100%;
+  height: 100%;
+}
+
+.home-words {
+  top: 0;
+  z-index: 22;
+  width: 100%;
+  position: absolute;
+  color: #ecebeb;
+}
+
+.homePageWords {
+  z-index: 2;
+  float: right;
+  width: 1200px;
+  margin: 23% -83px;
+  padding-left: -145px;
+  text-align: right;
+}
+
+.homePageWords1 {
+  font-size: 60px;
+}
+
+.homePageWords2 {
+  font-size: 120px;
+}
+
+.homePageWords3 {
+  font-size: 80px;
+}
+
+.homePageWords5 {
+  font-size: 20px;
+}
+
+.homePageWords4 {
+  display: inline-block;
+  margin: 3% -50px 0px 0px;
+  font-size: 45px;
+  text-align: center;
+  color: #be926f;
+  /* color: rgb(0, 0, 0, 0.5); */
+}
+
+.homePageWords .homePageBtn .login-log {
+  margin: 20px 0px;
+}
+
+.homePageBtn1 {
+  margin: 32px 0px;
+}
+
+.width35 {
+  width: 35px;
+}
+
+.homePageBtn1 .login-log,
+.homePageBtn .login-log,
+.el-menu--horizontal>.el-menu-item a.login-log,
+.el-menu--horizontal>.el-menu-item a.login-log {
+  text-decoration: none;
+  display: inline-block;
+  line-height: 20px;
+  font-size: 13px;
+  height: 20px;
+  padding: 2px 10px 3px 10px;
+  border: 1px solid #be926f;
+  color: #be926f;
+  background: transparent none;
+  border-radius: 5px;
+  margin: 0px 5px;
+}
+
+.login-log:hover,
+.navigationBtn .login-log:hover,
+.el-menu--horizontal>.el-menu-item a.login-log:hover {
+  color: #ffffff;
+  background: #be926f;
+}
+
+.homePageBtn1 {
+  float: right;
+}
+
+/* 合同服务 */
+.serviceFat {
+  background-color: #ecebeb;
+  width: 100%;
+  height: 600px;
+  margin-top: 2px;
+  position: relative;
+  padding: 100px 0px;
+}
+
+.serviceFirst {
+  width: 1200px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.serviceHead {
+  margin: 80px 0px;
+}
+
+.serviceHead .width300 {
+  width: 300px;
+  margin: -15px auto;
+}
+
+.serviceBody {
+  width: 1200px !important;
+  height: 300px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.img353 {
+  width: 353px;
+  height: 19px;
+  margin: 0px auto;
+}
+
+.colwhite {
+  color: white;
+}
+
+.service {
+  float: left;
+  margin: 40px 40px;
+  background-image: url(../../assets/images/服务.png);
+  width: 220px;
+  height: 210px;
+}
+
+.service:hover {
+  background-image: url(../../assets/images/服务01.png);
+  text-shadow: 1px 0 10px #b5b5b5;
+  font-size: 19px;
+  transition: 0.4s;
+}
+
+.service span {
+  display: inline-block;
+  width: 180px;
+  text-align: center;
+  margin: 2px 20px;
+}
+
+.service h3 {
+  display: inline-block;
+  width: 180px;
+  text-align: center;
+  margin: 2px 20px;
+}
+
+.service h5 {
+  font-size: 12px;
+  color: #858585;
+  letter-spacing: -1px;
+  display: inline-block;
+  width: 180px;
+  text-align: center;
+  margin: 2px 20px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  margin: 0px 90px;
+  margin-top: 20px;
+  fill: #009eff;
+}
+
+.service .icon .green {
+  width: 45px;
+  height: 45px;
+  margin: 0px 90px;
+  margin-top: 20px;
+  fill: #01e09e;
+}
+
+.service .icon .blue {
+  fill: #009eff;
+}
+
+.service .icon .red {
+  fill: #ff7243;
+}
+
+.service .icon .yellow {
+  fill: #fba909;
+}
+
+/* 高效签约 */
+.efficientFath {
+  background-image: url(../../assets/images/首页_04.jpg);
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  padding: 100px 0px;
+}
+
+.efficientImg {
+  width: 1100px;
+  height: 4px;
+  margin: 124px 0px;
+  background-color: #be926f;
+  position: absolute;
+}
+
+.efficientBody {
+  width: 1100px !important;
+  height: 300px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-top: auto;
+}
+
+.efficientChi {
+  width: 1024px !important;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.efficient1 {
+  float: left;
+  margin: 40px 40px;
+  background-image: url(../../assets/images/效率1.png);
+  width: 176px;
+  height: 172px;
+  text-align: center;
+}
+
+.efficient1:hover {
+  background-image: url(../../assets/images/效率01.png);
+  text-shadow: 1px 0 10px #b5b5b5;
+  font-size: 17px;
+  color: aliceblue;
+  transition: 0.4s;
+}
+
+.efficient1 h3 {
+  display: inline-block;
+  width: 180px;
+  text-align: center;
+  margin: 33px 0px 40px 0px;
+}
+
+.efficient1 h5 {
+  font-size: 12px;
+  color: #85c5b1;
+  letter-spacing: 0px;
+  display: inline-block;
+  width: 170px;
+  text-align: center;
+  margin: 0px 0px;
+}
+
+.efficient2 {
+  float: left;
+  margin: 40px 40px;
+  background-image: url(../../assets/images/效率2.png);
+  width: 176px;
+  height: 172px;
+  text-align: center;
+}
+
+.efficient2:hover {
+  background-image: url(../../assets/images/效率02.png);
+  font-size: 17px;
+  color: aliceblue;
+  transition: 0.4s;
+}
+
+.efficient4 h3,
+.efficient2 h3 {
+  /* display: inline-block; */
+  width: 180px;
+  text-align: center;
+  margin: -2px -4px;
+}
+
+.efficient2 h5 {
+  font-size: 12px;
+  color: #ee825e;
+  letter-spacing: -1px;
+  display: inline-block;
+  width: 170px;
+  text-align: center;
+  margin: 29px 0px 33px 0px;
+}
+
+.efficient3 {
+  float: left;
+  margin: 40px 40px;
+  background-image: url(../../assets/images/效率3.png);
+  width: 176px;
+  height: 172px;
+  text-align: center;
+}
+
+.efficient3:hover {
+  background-image: url(../../assets/images/效率03.png);
+  text-shadow: 1px 0 10px #b5b5b5;
+  font-size: 17px;
+  color: aliceblue;
+  transition: 0.4s;
+}
+
+.efficient3 h3 {
+  display: inline-block;
+  width: 180px;
+  text-align: center;
+  margin: 33px 0px 40px 0px;
+}
+
+.efficient3 h5 {
+  font-size: 12px;
+  color: #60abd9;
+  letter-spacing: 0px;
+  display: inline-block;
+  width: 170px;
+  text-align: center;
+  margin: 0px 0px;
+}
+
+.efficient4 {
+  float: left;
+  margin: 40px 40px;
+  background-image: url(../../assets/images/效率4.png);
+  width: 176px;
+  height: 172px;
+  text-align: center;
+}
+
+.efficient4:hover {
+  background-image: url(../../assets/images/效率04.png);
+  font-size: 17px;
+  color: aliceblue;
+  transition: 0.4s;
+}
+
+/* 
+.efficient4 h3 {
+  display: inline-block;
+  width: 180px;
+  text-align: center;
+  margin: -2px -2px;
+} */
+.efficient4 h5 {
+  font-size: 12px;
+  color: #e99e10;
+  letter-spacing: 0px;
+  display: inline-block;
+  width: 170px;
+  text-align: center;
+  margin: 29px 0px 33px 0px;
+}
+
+/* 行业应用 */
+.applicationFath {
+  background-color: #ecebeb;
+  background-size: cover;
+  width: 100%;
+  height: 900px;
+  position: relative;
+  padding: 100px 0px;
+}
+
+.applicationBody {
+  width: 1100px !important;
+  height: 600px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-top: auto;
+}
+
+.applicationBody1 {
+  width: 980px !important;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.applicationBody2 {
+  width: 980px !important;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.applicationHead .world3 {
+  text-align: center;
+}
+
+.application1 {
+  float: left;
+  margin: 40px 40px;
+  background-image: url(../../assets/images/行业1.png);
+  width: 246px;
+  height: 164px;
+  text-align: center;
+  color: aliceblue;
+}
+
+.application1:hover {
+  background-image: url(../../assets/images/行业01.png);
+  text-shadow: 1px 0 10px #b5b5b5;
+  font-size: 20px;
+  color: aliceblue;
+  transition: 0.4s;
+}
+
+.application2 {
+  float: left;
+  margin: 40px 40px;
+  background-image: url(../../assets/images/行业2.png);
+  width: 246px;
+  height: 164px;
+  text-align: center;
+  color: aliceblue;
+}
+
+.application2:hover {
+  background-image: url(../../assets/images/行业02.png);
+  text-shadow: 1px 0 10px #b5b5b5;
+  /* box-shadow: 1px 0 10px #b5b5b5; */
+  font-size: 20px;
+  color: aliceblue;
+  transition: 0.4s;
+}
+
+.application3 {
+  float: left;
+  margin: 40px 40px;
+  background-image: url(../../assets/images/行业3.png);
+  width: 246px;
+  height: 164px;
+  text-align: center;
+  color: aliceblue;
+}
+
+.application3:hover {
+  background-image: url(../../assets/images/行业03.png);
+  text-shadow: 1px 0 10px #b5b5b5;
+  /* box-shadow: 1px 0 10px #b5b5b5; */
+  font-size: 20px;
+  color: aliceblue;
+  transition: 0.5s;
+}
+
+.application4 {
+  float: left;
+  margin: 40px 40px;
+  background-image: url(../../assets/images/行业4.png);
+  width: 246px;
+  height: 164px;
+  text-align: center;
+  color: aliceblue;
+}
+
+.application4:hover {
+  background-image: url(../../assets/images/行业04.png);
+  text-shadow: 1px 0 10px #b5b5b5;
+  /* box-shadow: 1px 0 10px #b5b5b5; */
+  font-size: 20px;
+  color: aliceblue;
+  transition: 0.5s;
+}
+
+.application5 {
+  float: left;
+  margin: 40px 40px;
+  background-image: url(../../assets/images/行业5.png);
+  width: 246px;
+  height: 164px;
+  text-align: center;
+  color: aliceblue;
+}
+
+.application5:hover {
+  background-image: url(../../assets/images/行业05.png);
+  text-shadow: 1px 0 10px #b5b5b5;
+  font-size: 20px;
+  color: aliceblue;
+  transition: 0.5s;
+}
+
+.application6 {
+  float: left;
+  margin: 40px 40px;
+  background-image: url(../../assets/images/行业6.png);
+  width: 246px;
+  height: 164px;
+  text-align: center;
+  color: aliceblue;
+}
+
+.application6:hover {
+  background-image: url(../../assets/images/行业06.png);
+  text-shadow: 1px 0 10px #b5b5b5;
+  font-size: 20px;
+  color: aliceblue;
+  transition: 0.5s;
+}
+
+.applicationWords h2 {
+  display: inline-block;
+  width: 180px;
+  text-align: center;
+  margin: -2px -2px;
+}
+
+.applicationWords .world1 {
+  display: inline-block;
+  width: 180px;
+  text-align: center;
+  margin: -2px -2px;
+}
+
+.applicationIcon {
+  width: 60px;
+  height: 60px;
+  margin: 0px 90px;
+  margin-top: 25px;
+}
+
+.applicationIcon .white {
+  fill: #ffffff;
+}
+
+/*  尾部*/
+.home-navigation-foot {
+  color: #ffffff;
+  background-color: black;
+  bottom: 0px;
+  width: 100%;
+  height: 58px;
+}
+
+.home-navigation-foot-words {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 1200px;
+  font-size: 12px;
+  line-height: 58px;
+  text-align: center;
+}

@@ -1,0 +1,73 @@
+.banner {
+  background-image: url(../../assets/images/注册1.jpg);
+  background-position: 0;
+  margin-top: -60px;
+  width: 100%;
+  padding-top: 50px;
+  position: relative;
+  background-size: cover;
+  background-position: center top;
+  height: 400px;
+}
+
+.container {
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.jumbotron {
+  background: 0 0;
+  width: 1200px;
+  color: #fff;
+  padding-top: 100px;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.jumbotron h1 {
+  font-size: 30px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.jumbotron h2 {
+  font-size: 16px;
+  margin-bottom: 20px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, .8);
+}
+
+.jumbotron .btn {
+  width: 150px;
+}
+
+.btn {
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.jumbotron .btn a {
+  line-height: 40px;
+  color: white;
+  border: 1px solid white;
+  padding: 2px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.jumbotron .btn a:hover {
+  background: rgb(255, 198, 151, 0.3);
+  border: 1px solid #ffe2ca;
+  color: white;
+  /* background: #be926f;
+  color: white;
+  border: 1px solid #be926f; */
+}

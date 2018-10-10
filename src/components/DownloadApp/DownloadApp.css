@@ -1,0 +1,100 @@
+ /* 首页 */
+
+ #home {
+   height: 100%;
+   min-width: 1600px;
+ }
+
+ .homePage {
+   min-width: 1600px;
+   background-image: url(../../assets/images/dwapp.jpg);
+   background-size: cover;
+   width: 100%;
+   color: white;
+   height: 100%;
+ }
+
+ .homePageHead {
+   min-width: 1200px;
+   width: 1200px;
+   height: 100%;
+   /* background: rebeccapurple; */
+   margin: auto !important;
+ }
+
+ .homePageWords {
+   /* background: #2f42fb; */
+   z-index: 2;
+   float: right;
+   width: 600px;
+   height: 350px;
+   margin: 30% 0px 0px;
+   /* margin: 275px -145px; */
+   /* padding-left: -45px; */
+   text-align: left;
+ }
+
+ .homePageWords1 {
+   display: inline-block;
+   font-size: 30px;
+   margin-top: 30px;
+ }
+
+ .homePageWords2 {
+   font-size: 120px;
+ }
+
+ .homePageWords3 {
+   font-size: 80px;
+ }
+
+ .homePageWords4 {
+   font-size: 25px;
+ }
+
+ .homePageBtn .login-logs {
+   float: left;
+   display: inline-block;
+   margin-top: 30px;
+   font-size: 15px;
+   width: 170px;
+   line-height: 45px;
+   text-align: center;
+   height: 45px;
+   border: 1px solid #ffc697;
+   color: #ffc697;
+   background: transparent none;
+   border-radius: 5px;
+   text-decoration: none;
+ }
+
+ .homePageBtn .login-logs:hover {
+   background: rgb(255, 198, 151, 0.3);
+   border: 1px solid #ffe2ca;
+   color: white;
+ }
+
+ .homePageBtn .login-logs:last-child {
+   margin: 30px 50px;
+ }
+
+ .navigationIcon {
+   fill: #ffffff;
+   width: 30px;
+   height: 30px;
+   margin-top: 7px;
+   float: left;
+   padding-left: 10px;
+ }
+
+ .navigationIcon.white2 {
+   width: 33px;
+   height: 33px;
+   margin-top: 5px;
+ }
+
+ .login-logs span {
+   /* position: absolute; */
+   float: left;
+   padding: 0px 10px;
+ }

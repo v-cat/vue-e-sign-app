@@ -1,0 +1,90 @@
+ /* 2级标题 */
+
+ [v-cloak] {
+   display: none;
+ }
+
+ .tabs {
+   font-size: 14px;
+   /* color: #657180; */
+ }
+
+ .tabs-bar:after {
+   content: '';
+   display: block;
+   width: 100%;
+   /* height: 1px;
+   background: #d7dde4; */
+   margin-top: -1px;
+ }
+
+ .tabs-tab {
+   width: 170px;
+   height: 35px;
+   font-size: 13px;
+   display: inline-block;
+   position: relative;
+   /* padding: 15px 39px; */
+   line-height: 35px;
+   /* padding-left: 77px; */
+   margin-left: -24px;
+   /* padding-top: 15px; */
+   background: url(../../assets/images/导航.png) no-repeat;
+   /* background-size: 150px; */
+   /* background-position: -25px -25px; */
+   /* margin-right: 6px; */
+   /* background: #FFF; */
+   /* border-left: 1px solid #d7dde4; */
+   /* border-right: 1px solid #d7dde4; */
+   /* border-bottom: 1px solid #d7dde4; */
+   cursor: pointer;
+   position: relative;
+ }
+
+ .tabs-tab:hover {
+   /* color: white; */
+   /* background: #be936f9f; */
+   /* border-radius: 10px; */
+ }
+
+ .tabs-head {
+   height: 30px;
+   margin-top: -30px;
+   border-bottom: 2px solid #be926f;
+ }
+
+ .tabs-tab-active {
+   color: white;
+   font-weight: 600;
+   background: url(../../assets/images/导航1.png) no-repeat;
+   text-align: center;
+ }
+
+ .tabs-tab-active:before {
+   content: '';
+   display: block;
+   position: absolute;
+   transform: skewX(-45deg);
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background-color: #51bfff;
+   z-index: -1;
+ }
+
+ .tabs-content {
+   padding: 8px 0px;
+ }
+
+ /* 导航 */
+
+ #nav-border ul li div.el-submenu__title {
+   /* background: #be926f; */
+   height: 55px;
+   border-bottom: 2px solid #be926f !important;
+ }
+
+ #nav-border ul li div.el-submenu__title .el-submenu__icon-arrow {
+   color: #be926f;
+ }

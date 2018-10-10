@@ -1,0 +1,122 @@
+ .product-animation-new-hu {
+   position: absolute;
+   top: 11%;
+ }
+
+ .product-animation-new-hu .product-font-new-hu {
+   color: #fff;
+   font-size: 32px;
+   margin-bottom: 28px;
+ }
+
+ .row {
+   margin-left: 0;
+   margin-right: 0;
+ }
+
+ .product-animation-new-hu .product-font-size-new-hu {
+   color: #fff;
+   font-size: 22px;
+ }
+
+ .business p {
+   margin: 0 0 10px;
+ }
+
+ .business .lx-container {
+   width: 1200px;
+   margin-right: auto;
+   margin-left: auto;
+   padding-left: 0;
+   padding-right: 0;
+ }
+
+ .business .business-sign .business-management .business-produce-l img {
+   float: right;
+   right: 35px;
+   width: 120px;
+   position: absolute;
+   /* top: 20px; */
+   margin-top: -65px;
+ }
+
+ .business .business-sign .business-job .business-produce-l img {
+   width: 120px;
+   float: left;
+   left: -20px;
+ }
+
+ .business .business-sign .business-job .business-produce-l {
+   top: 25px;
+   left: 30px;
+   float: left;
+   position: absolute;
+ }
+
+ .business .business-sign .show-text {
+   /* position: absolute; */
+   right: 35px;
+   width: 900px;
+   top: 20px;
+   text-align: left
+ }
+
+ .business .business-sign .show-text h3 {
+   font-size: 20px;
+   font-weight: normal;
+   margin-bottom: 5px
+ }
+
+ .business-sign .show-text p {
+   font-size: 13px;
+   line-height: 17px;
+ }
+
+ .business .business-sign .business-border {
+   height: 120px;
+   border: 1px solid #dec9b8;
+   padding: 5px 20px;
+   border-radius: 10px;
+   background: white
+ }
+
+ .business .margintop15 {
+   margin-top: 15px;
+ }
+
+ /* 3 */
+ .business .e_signature-title {
+   font-size: 24px;
+   font-size: 1.71428571rem;
+   line-height: 24px;
+   padding-left: 16px;
+   border-left: 4px solid #be926f;
+   color: #000;
+   text-align: left;
+   /* margin: 5px 0px */
+ }
+
+ .business .margintop30 {
+   margin-top: 30px;
+ }
+
+ .business .marginbtm30 {
+   margin-bottom: 30px;
+ }
+
+ .business .business-sign .business-wid-178 {
+   width: 1200px;
+   /* margin: 0 auto; */
+ }
+
+ .business .navigation-Words {
+   color: #000;
+ }
+
+ .business .navigation-Words:hover {
+   color: #be926f;
+ }
+
+ .business .color-words {
+   color: #be926f;
+ }

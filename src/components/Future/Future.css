@@ -1,0 +1,229 @@
+.jumbotron {
+  background: 0 0;
+  width: 1200px;
+  color: white;
+  padding-top: 100px;
+}
+
+.container {
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.banner {
+  background-image: url(../../assets/copyImg/tu3.jpg);
+  background-position: 0;
+}
+
+.banner {
+  margin-top: -60px;
+  width: 100%;
+  padding-top: 50px;
+  position: relative;
+  background-size: cover;
+  background-position: center top;
+}
+
+.banner {
+  height: 400px;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.jumbotron h1 {
+  font-size: 30px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.jumbotron h2 {
+  font-size: 16px;
+  margin-bottom: 20px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, .8);
+}
+
+.jumbotron .btn {
+  margin-top: 20px;
+  border-radius: 2px;
+  width: 150px;
+  font-size: 16px;
+  padding: 0;
+  display: inline-block;
+  height: 40px;
+  margin-right: 12px;
+}
+
+.btn {
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.jumbotron .btn a {
+  line-height: 40px;
+  color: #be926f;
+  width: 150px;
+  height: 40px;
+  border: 1px solid #be926f;
+  display: inline-block;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* 行业应用 */
+.screen-common {
+  padding: 20px 0px 100px 0px;
+  /* margin-bottom: 100px; */
+  position: relative;
+}
+
+.seal .for-future a {
+  margin: 10px 0;
+  display: inline-block;
+}
+
+.target-a {
+  position: absolute;
+  height: 0;
+  top: -80px;
+}
+
+.screen-common .screen-title {
+  padding-top: 70px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.screen-common .screen-title h2 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.dark-grey {
+  color: #be926f !important;
+}
+
+.screen-common p {
+  line-height: 24px;
+}
+
+.screen-common .screen-title p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #999;
+  padding: 0 15px;
+}
+
+/* .screen-common>.container {
+  padding: 60px 0 80px 0;
+} */
+.screen-common .minx-produce-rd {
+  padding: 0;
+}
+
+.screen-common .e_contract-value ul li {
+  width: 374px;
+  height: 320px;
+  /* background: rgba(190, 146, 111, .2); */
+  /* background: url(../../assets/copyImg/13.png); */
+  /* background-size: 274px 160px */
+}
+
+.business-link {
+  display: inline-block;
+  width: 374px;
+  height: 320px;
+  background: rgba(190, 146, 111, .2);
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.screen-common .e_contract-value ul li .e_contract-value-title {
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold
+}
+
+.screen-common .e_contract-value ul li span:last-child {
+  color: #969696;
+  font-size: 15px;
+  /* font-weight: bold; */
+  text-align: left;
+  line-height: 23px;
+  margin: 10px 15px;
+  display: inline-block;
+}
+
+/* 3 */
+/* 3 */
+.e_signature-title {
+  font-size: 24px;
+  font-size: 1.71428571rem;
+  line-height: 24px;
+  padding-left: 16px;
+  border-left: 4px solid #be926f;
+  color: #000;
+  text-align: left;
+}
+
+.margintop30 {
+  margin-top: 30px;
+}
+
+.e_signature-function {
+  margin: 38px 0 72px;
+}
+
+.e_signature-function ul {
+  text-align: center;
+}
+
+.e_signature-function ul li {
+  float: left;
+  color: #333;
+  font-size: 1rem;
+  font-size: 14px\9;
+  padding: 12px 24px 12px 0px;
+}
+
+.col-IE-3 {
+  width: 372px;
+}
+
+.e_signature-function ul li .function-tags {
+  height: 80px;
+  border: 1px solid #dec9b8;
+}
+
+.e_signature-function ul li .e_signature-function-img {
+  background: url(../../assets/copyImg/5.png) no-repeat;
+}
+
+.e_signature-function-img {
+  float: left;
+  width: 36px;
+  height: 36px;
+  margin: 16px 14px 8px 14px;
+}
+
+.e_signature-function-content {
+  float: left;
+  width: 300px;
+  display: inline-block;
+  height: 60px;
+  margin-top: 17px;
+  text-align: left;
+  line-height: 28px;
+}
+
+.minx-gray {
+  background: #f4f4f4;
+}

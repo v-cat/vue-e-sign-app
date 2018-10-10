@@ -1,0 +1,87 @@
+/* person */
+.person-demo {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.person-demo .text-center {
+  text-align: center;
+  height: 350px;
+
+}
+
+.col-xs-2 {
+  float: left;
+  min-height: 1px;
+  width: 180px;
+  padding: 50px 10px;
+}
+
+.service-border-hu {
+  border: 1px solid #dec9b8;
+  border-radius: 10px;
+  padding: 1px;
+}
+
+.account .service-border-hu .box-head-h {
+  background-color: #dec9b8;
+  border: 1px solid #dec9b8;
+  border-radius: 10px 10px 0px 0px;
+  height: 50px;
+  line-height: 50px;
+}
+
+.service-border-hu .service-box-pad-hu {
+  padding: 1vh 0 3vh;
+}
+
+.service-border-hu .manage-info-mar-h {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.service-border-hu .manage-info-mar-h .display-inline {
+  display: inline-block;
+}
+
+.service-border-hu .manage-info-mar-h .display-inline .text-l {
+  float: left;
+  margin-top: 10px;
+}
+
+.service-border-hu .manage-info-mar-h .display-inline .text-r {
+  float: left;
+  font-size: 30px;
+}
+
+.service-fw-hu {
+  color: #333;
+  font-weight: 400;
+}
+
+b,
+strong {
+  font-weight: 700;
+}
+
+.service-border-hu .service-mar-hu {
+  font-size: 15px;
+  margin: 1vh 0 3.5vh;
+}
+
+.service-border-hu .service-btn-hu {
+  text-decoration: none;
+  color: #fff;
+  background-color: #be926f;
+  border-radius: 5px;
+  font-size: 15px;
+  line-height: 34px;
+  padding: 4px 15px;
+}
+
+.service-border-hu .service-btn-hu:hover {
+  color: #be926f;
+  border: 1px solid #be926f;
+  background-color: #fff;
+}

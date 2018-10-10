@@ -1,0 +1,282 @@
+* {
+  margin: 0px;
+  padding: 0;
+  list-style: none;
+}
+
+#person {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  /* height: 100%; */
+}
+
+#person .header .navigationBar {
+  background: black;
+}
+
+/*  导航条 */
+/* 按钮 */
+.SignBtn .login-btn,
+.SignBtn .login-log {
+  text-decoration: none;
+  display: inline-block;
+  line-height: 20px;
+  font-size: 13px;
+  height: 20px;
+  padding: 2px 10px 3px 10px;
+  border: 1px solid #be926f;
+  color: #be926f;
+  background: transparent none;
+  border-radius: 5px;
+  margin: 0px 5px;
+}
+
+.SignBtn {
+  margin-bottom: 20px;
+}
+
+.login-log:hover {
+  color: #ffffff;
+  background: #be926f;
+}
+
+/* 上传合同 */
+.contract-body {
+  margin-top: 150px;
+  margin-bottom: 90px;
+}
+
+.upload-border {
+  width: 1200px;
+  margin: 0px auto;
+  background: white;
+  border: 1px solid #be926f;
+  padding: 40px 0px 0px 0px;
+  border-radius: 20px;
+}
+
+h2 {
+  font-size: 35px;
+  font-weight: 400;
+  margin-bottom: 25px;
+  color: #be926f;
+}
+
+.summary span {
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 50px;
+}
+
+.upload-infor {
+  width: 120px;
+  padding-top: 10px;
+  margin: 45px auto;
+  position: relative;
+}
+
+.upload-form {
+  width: 800px;
+  height: 400px;
+  background-color: #fff;
+}
+
+.file,
+.revert-file {
+  width: 119px;
+  height: 190px;
+  padding-top: 10px;
+}
+
+.file input,
+.revert-file input {
+  position: absolute;
+  font-size: 100px;
+  right: 0;
+  top: 0;
+  opacity: 0;
+  width: 119px;
+  height: 190px;
+}
+
+.backgroung:hover {
+  background: no-repeat url(../../assets/images/上传合同长.png);
+}
+
+.backgroung {
+  background: repeat url(../../assets/images/上传合同短.png);
+}
+
+.backgroungWhite {
+  background: repeat url(../../assets/images/合同上传.png);
+}
+
+.backgroungWhite:hover {
+  background: repeat url(../../assets/images/重新上传.png);
+}
+
+/* 验签流程 */
+.container {
+  width: 1000px;
+  text-align: left;
+  margin: 0px auto;
+}
+
+.padbtn20 {
+  margin-top: 40px;
+  padding-bottom: 20px;
+}
+
+.upload-border .container h3 {
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.upload-border .container .supplement {
+  color: #be926f;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.content p {
+  color: #666;
+  margin-bottom: 15px;
+}
+
+/* 验签结果 */
+/* .result-content{
+
+} */
+.result-content {
+  /* border: 15px solid #eee; */
+  margin-top: -35px;
+  padding: 10px;
+}
+
+.result-content .title {
+  font-weight: 700;
+  text-align: left;
+  font-size: 18px;
+  color: #be926f;
+}
+
+p:first-child {
+  margin-top: 0;
+}
+
+.result-content .file-info {
+  margin-bottom: 40px;
+}
+
+.ui.table {
+  font-size: 15px;
+}
+
+.ui.table {
+  width: 100%;
+  background: #fff;
+  margin: 1em 0;
+  border: 1px solid #be936fba;
+  box-shadow: none;
+  border-radius: .28571429rem;
+  text-align: left;
+  color: rgba(0, 0, 0, .87);
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.ui.padded.table td,
+.ui.padded.table th {
+  padding: 5px;
+}
+
+.ui.table td {
+  padding: 5px;
+  text-align: inherit;
+}
+
+.result-content .sign-info tr .no-border {
+  border-top: none;
+}
+
+.ui.table tr td {
+  border-top: 1px solid #be926f52;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.result-content .file-info td {
+  width: 65%;
+}
+
+.ui.table tr:first-child td {
+  border-top: none;
+}
+
+.result-content .sign-info tr td:first-child {
+  width: 20%;
+}
+
+.ui.table tr:first-child td {
+  border-top: none;
+}
+
+.ui.basic.table td {
+  background: 0 0;
+}
+
+.result-content .sign-info tr td:last-child {
+  width: 80%;
+}
+
+.ui.table tr:first-child td {
+  border-top: none;
+}
+
+.result-content .sign-info tr .seal {
+  max-width: 256px;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+img {
+  border: 0;
+}
+
+.navigationIcon {
+  width: 20px;
+  height: 20px;
+  /* margin-top: 7px; */
+  fill: #be926f;
+}
+
+.white #icon-qianming {
+  margin-top: 7px;
+}
+
+.fontsize18 {
+  font-size: 18px;
+}
+
+.red {
+  color: red;
+}
+
+.ui ul li {
+  list-style: disc
+}
+
+.ui ul {
+  font-size: 16px;
+  margin: 20px 20px 20px 40px
+}
+
+.ui.table.border {
+  border: 1px solid #be926f;
+}

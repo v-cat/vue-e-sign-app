@@ -1,0 +1,176 @@
+.minx-sign .minx-management .minx-produce-l img {
+  float: right;
+  right: 35px;
+  width: 120px;
+  position: absolute;
+  margin-top: -70px;
+}
+
+.minx-sign .minx-job .minx-produce-l img {
+  width: 120px;
+  float: left;
+  left: -20px;
+}
+
+.minx-sign .minx-job .minx-produce-l {
+  top: 25px;
+  left: 30px;
+  float: left;
+  position: absolute;
+}
+
+.minx-sign .show-text {
+  right: 35px;
+  width: 900px;
+  top: 20px;
+  text-align: left
+}
+
+.minx-sign .show-text h3 {
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 5px
+}
+
+.minx-sign .show-text p {
+  font-size: 13px;
+  line-height: 17px;
+}
+
+.minx-sign .minx-border {
+  height: 120px;
+  border: 1px solid #dec9b8;
+  padding: 5px 20px;
+  border-radius: 10px;
+  background: white
+}
+
+.margintop15 {
+  margin-top: 15px;
+}
+
+/* 3 */
+.e_signature-title {
+  font-size: 24px;
+  font-size: 1.71428571rem;
+  line-height: 24px;
+  padding-left: 16px;
+  border-left: 4px solid #be926f;
+  color: #000;
+  text-align: left;
+}
+
+.margintop30 {
+  margin-top: 30px;
+}
+
+.e_signature-function {
+  margin: 38px 0 72px;
+}
+
+.e_signature-function ul {
+  text-align: center;
+}
+
+.e_signature-function ul li {
+  float: left;
+  color: #333;
+  font-size: 1rem;
+  font-size: 14px\9;
+  padding: 12px 24px 12px 0px;
+}
+
+.col-IE-3 {
+  width: 372px;
+}
+
+.e_signature-function ul li .function-tags {
+  height: 70px;
+  border: 1px solid #dec9b8;
+}
+
+.e_signature-function ul li .e_signature-function-img {
+  background: url(../../../assets/copyImg/5.png) no-repeat;
+}
+
+.e_signature-function-img {
+  float: left;
+  width: 36px;
+  height: 36px;
+  margin: 16px 14px 8px 14px;
+}
+
+.e_signature-function-content {
+  float: left;
+  height: 60px;
+  line-height: 68px;
+}
+
+/* 5 */
+.ty_signature-sence {
+  margin: 24px 0 65px;
+}
+
+.ty_signature-sence p {
+  text-align: left;
+  color: #999;
+  margin-bottom: 24px;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+.ty_signature-sence ul {
+  text-align: center;
+}
+
+li,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.ty_signature-sence ul li {
+  background: url(../../../assets/copyImg/7.png) 50% no-repeat;
+  background-size: 120% 120%;
+  transition: background-size .3s;
+}
+
+.ty_signature-sence ul li:hover {
+  background-size: 100% 100%;
+  transition: background-size .3s;
+}
+
+.ty_signature-sence ul li {
+  float: left;
+  width: 282px;
+  height: 282px;
+  margin: 7px 7px 80px 7px;
+  line-height: 30px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+}
+
+.ty_signature-sence ul li span {
+  position: relative;
+  top: 41.13475177%;
+}
+
+/* 6 */
+.evidence-framework {
+  margin: 55px 0 45px;
+  height: 670px;
+  border: 1px solid #eee;
+}
+
+.evidence-framework-img {
+  width: 1099px;
+  height: 618px;
+  margin: 12px 50px 0;
+  background-image: url(../../../assets/copyImg/11.png);
+  background-repeat: no-repeat;
+}

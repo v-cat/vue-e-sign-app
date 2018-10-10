@@ -1,0 +1,45 @@
+/* 按钮 */
+.buy-head .el-tabs--card>.el-tabs__header {
+  border-bottom: 0px;
+}
+
+.buy-head .el-tabs--card>.el-tabs__header .el-tabs__nav {
+  border: 0px;
+  margin: 0px auto;
+}
+
+.buy-head .el-tabs--card>.el-tabs__header .el-tabs__nav div {
+  border: 0.5px solid #be926f;
+  border-radius: 5px;
+  margin: 0px 10px;
+  padding: 0px 10px;
+  height: 30px;
+  line-height: 30px;
+  color: #be926f;
+}
+
+.el-tabs--card>.el-tabs__header .el-tabs__item.is-active {
+  border-bottom-color: #be926f;
+  background-color: #be926f;
+  color: #fff !important;
+  border-radius: 5px;
+}
+
+.el-tabs--card>.el-tabs__header {
+  border-bottom: 0px solid #e4e7ed;
+}
+
+.el-icon-arrow-left:before {
+  content: ' ';
+}
+
+.el-icon-arrow-right:before {
+  content: ' ';
+}
+
+.buy-company .el-form-item__label,
+.buy-company .el-form-item__content {
+  font-size: 18px;
+  float: left;
+  color: black;
+}

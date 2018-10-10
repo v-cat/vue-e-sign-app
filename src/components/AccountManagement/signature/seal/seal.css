@@ -1,0 +1,71 @@
+.seal-card {
+  width: 1000px;
+  margin-top: 50px;
+  /* position: absolute; */
+}
+
+.seal-my-code {
+  margin: 25px 85px;
+  width: 153px;
+  height: 183px;
+  display: inline-block;
+  border: 2px solid #d6c7bb;
+  border-radius: 10px;
+  background-size: 153px 153px;
+}
+
+.seal-my-code1 {
+  margin: 25px auto;
+  width: 153px;
+  height: 153px;
+  display: inline-block;
+  border: 2px solid #d6c7bb;
+  border-radius: 10px;
+  background-size: 153px 153px;
+  background: #dadada;
+  line-height: 153px;
+  color: #be926f;
+  font-size: 18px;
+}
+
+.fleft {
+  float: left;
+}
+
+/* 印章图片 */
+.margin138 {
+  margin: 133px 0px 0px 0px;
+}
+
+.margin156 {
+  margin: 156px 0px 0px 0px;
+}
+
+
+
+.contract-my-code2 {
+  width: 153px;
+  height: 30px;
+  display: inline-block;
+  border-radius: 0px 0px 8px 8px;
+  background: #dadada;
+  line-height: 30px;
+  color: #be926f
+}
+
+.contract-my-code2:hover {
+  color: red
+}
+
+.icondelect {
+  float: right;
+  margin-right: 4px;
+  margin-top: 5px;
+  width: 15px;
+  height: 15px;
+  fill: #be926f;
+}
+
+.icondelect:hover {
+  fill: red;
+}

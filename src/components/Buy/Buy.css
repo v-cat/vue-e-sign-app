@@ -1,0 +1,192 @@
+* {
+  padding: 0;
+  list-style: none;
+}
+
+#person {
+  height: 1350px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+/*  导航条背景 */
+.buy-head .navigation-back {
+  background-color: black;
+  width: 100%;
+  position: fixed;
+  height: 58px;
+  position: fixed;
+  top: 0;
+  z-index: 9;
+}
+
+/* 内容body部分 */
+.contract-body {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* 合同信息 */
+.contract-information {
+  margin-top: 40px;
+  width: 1200px;
+}
+
+.contract-information span {
+  margin: 5px -123px;
+  float: left;
+  font-size: 18px;
+}
+
+.contract-information .contract-infor-back {
+  background: no-repeat url(../../assets/images/上传合同3.png);
+  background-size: 150px 30px;
+  height: 30px;
+  width: 160px;
+  margin-left: 0px;
+  float: left;
+}
+
+.buy-head .contract-information-button {
+  float: right;
+}
+
+.search-infor-button {
+  text-decoration: none;
+  font-size: 13px;
+  display: inline-block;
+  line-height: 23px;
+  width: 60px;
+  height: 23px;
+  border: 1px solid #be926f;
+  color: #be926f;
+  background: transparent none;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+.search-infor-button:hover,
+.buy-words:hover {
+  color: #ffffff;
+  background: #be926f;
+}
+
+.contract-infor-squar {
+  width: 1200px;
+  height: 40px;
+  border-bottom: 2px solid #be926f;
+}
+
+/* 合同信息名称 */
+.navigation {
+  width: 1200px;
+  height: 60px;
+  margin: 0px auto;
+}
+
+.bg-purple {
+  height: 60px;
+  line-height: 60px;
+  text-align: left;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+
+/* 合同详情 */
+.contract-my {
+  margin: 46px 0px -2px 0px;
+  width: 1200px;
+  height: 875px;
+  display: inline-block;
+}
+
+.contract-my-words {
+  background-color: #ffffff;
+  width: 1200px;
+  height: 350px;
+  border: 0.5px solid #be926f;
+  color: #be926f;
+  border-radius: 20px;
+}
+
+.buy-info {
+  margin: 20px 50px;
+  width: 1100px;
+}
+
+/* alipay */
+.by-alipay {
+  margin-top: 20px;
+  /* height: 250px; */
+}
+
+.alipay {
+  margin-top: 65px;
+  float: left;
+  margin-left: 100px;
+}
+
+.alipay-words {
+  line-height: 200px;
+  float: right;
+  margin-left: 100px;
+
+
+}
+
+.buy-words {
+  text-decoration: none;
+  font-size: 16px;
+  display: inline-block;
+  line-height: 30px;
+  width: 100px;
+  height: 30px;
+  border: 1px solid #be926f;
+  color: #be926f;
+  border-radius: 5px;
+  margin: 0 100px;
+}
+
+.alipayIcon {
+  width: 250px;
+  margin-top: 20px;
+}
+
+.WeChat {
+  border: 1px solid #dec9b8;
+  border-radius: 10px;
+  width: 160px;
+}
+
+.BuyIcon {
+
+  width: 30px;
+  height: 30px;
+  fill: #44b549;
+}
+
+.WeChat-icon {
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  margin-top: 20px;
+  height: 40px;
+
+
+}
+
+.WeChat-words {
+  height: 30px;
+  line-height: 30px;
+  color: black;
+  float: right;
+}
+
+/* buy-company */
+.buy-company {
+  width: 400px;
+  margin: 40px auto;
+  font-size: 18px;
+}

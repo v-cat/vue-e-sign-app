@@ -1,0 +1,232 @@
+.product-animation-new-hu {
+  position: absolute;
+  top: 11%;
+}
+
+.product-animation-new-hu .product-font-new-hu {
+  color: #fff;
+  font-size: 32px;
+  margin-bottom: 28px;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.product-animation-new-hu .product-font-size-new-hu {
+  color: #fff;
+  font-size: 22px;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+.lx-container {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.minx-sign .minx-management .minx-produce-l img {
+  float: right;
+  right: 35px;
+  width: 120px;
+  position: absolute;
+  /* top: 20px; */
+  margin-top: -65px;
+}
+
+.minx-sign .minx-job .minx-produce-l img {
+  width: 120px;
+  float: left;
+  left: -20px;
+}
+
+.minx-sign .minx-job .minx-produce-l {
+  top: 25px;
+  left: 30px;
+  float: left;
+  position: absolute;
+}
+
+.minx-sign .show-text {
+  /* position: absolute; */
+  right: 35px;
+  width: 900px;
+  top: 20px;
+  text-align: left
+}
+
+.minx-sign .show-text h3 {
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 5px
+}
+
+.minx-sign .show-text p {
+  font-size: 13px;
+  line-height: 17px;
+}
+
+.minx-sign .minx-border {
+  height: 120px;
+  border: 1px solid #dec9b8;
+  padding: 5px 20px;
+  border-radius: 10px;
+  background: white
+}
+
+.margintop15 {
+  margin-top: 15px;
+}
+
+/* 4 */
+.e_contract-value {
+  margin: 56px 0 70px;
+}
+
+.e_contract-value ul {
+  text-align: center;
+}
+
+.minx-produce-rd .e_contract-value ul li {
+  /* display: inline-block; */
+  float: left;
+  width: 274px;
+  height: 300px;
+  margin: 0 24px 24px 0;
+  text-align: center;
+  border: 1px solid #dec9b8;
+  border-radius: 10px;
+  /* box-shadow: 0 0 5px 1px #be926f; */
+  transform: scale(1, 1);
+}
+
+.e_contract-value ul li .e_contract-value-img {
+  width: 110px;
+  height: 65px;
+  margin: 20px auto 16px;
+}
+
+.e_contract-value ul li .e_contract-value-img {
+  background-image: url(../../assets/copyImg/6.png);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.e_contract-value ul li .e_contract-value-title {
+  display: block;
+  font-size: 1.28571429rem;
+  font-size: 18px\9;
+  line-height: 30px;
+  color: #333;
+}
+
+.e_contract-value ul li .e_contract-value-content {
+  display: block;
+  font-size: 0.8rem;
+  font-size: 12px\9;
+  color: #999;
+  text-align: left;
+  line-height: 20px;
+  margin: 15px 25px;
+}
+
+/* 5 */
+.ty_signature-sence {
+  margin: 24px 0 65px;
+}
+
+.ty_signature-sence p {
+  text-align: left;
+  color: #999;
+  margin-bottom: 24px;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+.ty_signature-sence ul {
+  text-align: center;
+}
+
+li,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.ty_signature-sence ul li {
+  background: url(../../assets/copyImg/7.png) 50% no-repeat;
+  background-size: 120% 120%;
+  transition: background-size .3s;
+}
+
+.ty_signature-sence ul li:hover {
+  background-size: 100% 100%;
+  transition: background-size .3s;
+}
+
+.ty_signature-sence ul li {
+  float: left;
+  width: 226px;
+  height: 226px;
+  margin: 7px;
+  line-height: 30px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.ty_signature-sence ul li span {
+  position: relative;
+  top: 2%;
+}
+
+.e_contract-sence-title {
+  display: block;
+  color: #fff;
+  font-size: 1.28571429rem;
+  font-size: 18px\9;
+  font-weight: 600;
+  line-height: 30px;
+  margin: 50px 0 20px;
+}
+
+.e_contract-sence-content {
+  display: block;
+  color: #fff;
+  padding: 0 25px;
+  /* font-size: 1rem; */
+  text-align: left;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+/* 3 */
+.e_signature-title {
+  font-size: 24px;
+  font-size: 1.71428571rem;
+  line-height: 24px;
+  padding-left: 16px;
+  border-left: 4px solid #be926f;
+  color: #000;
+  text-align: left;
+  /* margin: 5px 0px */
+}
+
+.margintop30 {
+  margin-top: 30px;
+}
+
+.marginbtm30 {
+  margin-bottom: 30px;
+}

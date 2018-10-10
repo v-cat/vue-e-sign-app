@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  list-style: none;
+}
+
+.upload {
+  width: 1000px;
+  margin-top: 50px;
+  /* position: absolute; */
+}
+
+/* 上传 */
+.file {
+  width: 153px;
+  height: 153px;
+  position: relative;
+  display: inline-block;
+  /* border: 2px solid #d6c7bb; */
+  border-radius: 4px;
+  overflow: hidden;
+  text-decoration: none;
+  text-indent: 0;
+  line-height: 20px;
+}
+
+.backgroung {
+  background: repeat url(../../../../assets/images/上传.png);
+}
+
+.backgroungWhite {
+  background: white;
+}
+
+.file input {
+  width: 153px;
+  position: absolute;
+  font-size: 100px;
+  right: 0;
+  top: 0;
+  opacity: 0;
+}
+
+.avatar-uploader .el-upload {
+  border: 1px dashed #d9d9d9;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.avatar-uploader .el-upload:hover {
+  border-color: #be926f;
+}
+
+.avatar-uploader-icon {
+  font-size: 28px;
+  color: #8c939d;
+  width: 178px;
+  height: 178px;
+  line-height: 178px;
+  text-align: center;
+}
+
+.avatar {
+  width: 178px;
+  height: 178px;
+  display: block;
+}

@@ -1,0 +1,86 @@
+.e_contract-function .e_contract-redword {
+  float: left;
+  color: #be926f;
+  width: 28px;
+  height: 40px;
+  margin: 10px 24px 24px 28px;
+  font-size: 2rem;
+  font-size: 28px\9;
+}
+
+.e_contract-function .e_signature-function-content {
+  font-size: 14px;
+}
+
+.e_contract-function .e_contract-function-tag-content {
+  /* padding: 24px 16px 0 0; */
+  font-size: 14px;
+  /* font-size: 14px\9; */
+  color: #666;
+}
+
+.e_contract-function-content {
+  font-size: 14px;
+  width: 280px;
+  display: inline-block;
+  padding: 15px 5px;
+  text-align: left;
+}
+
+.e_contract-value-ul .e_contract-value ul li .e_contract-value-img {
+  width: 191px;
+  height: 120px;
+  margin: 20px auto 16px;
+  text-align: center;
+}
+
+.e_contract-value-ul .e_contract-value ul li {
+  text-align: center;
+}
+
+.e_contract-value-ul .e_contract-value ul li .e_contract-value-content {
+  display: block;
+  font-size: 14px;
+  color: #999;
+  line-height: 20px;
+  text-align-last: center;
+  text-align: center;
+}
+
+.e_contract-sence ul li {
+  float: left;
+  width: 282px;
+  height: 282px;
+  margin: 15px;
+  text-align: center;
+}
+
+.ty_signature-sence ul li span {
+  position: relative;
+  /* top: 2%; */
+}
+
+.e_contract-sence-title {
+  display: block;
+  color: #fff;
+  font-size: 1.28571429rem;
+  font-size: 18px\9;
+  font-weight: 600;
+  line-height: 30px;
+  margin: 50px 0 20px;
+}
+
+.e_contract-sence-content {
+  display: block;
+  color: #fff;
+  padding: 0 25px;
+  text-align: left;
+  /* font-size: 1rem; */
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.e_contract-sence .ty_signature-sence ul li span {
+  position: relative;
+  top: 2%;
+}

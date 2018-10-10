@@ -1,0 +1,203 @@
+* {
+  /* margin: -3px 0px -2px 0px; */
+  padding: 0;
+  list-style: none;
+}
+
+#person {
+  height: 1350px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+/*  导航条按钮 */
+.Preview-head .navigation-back {
+  background-color: black;
+  width: 100%;
+  position: fixed;
+  height: 58px;
+  position: fixed;
+  top: 0;
+  z-index: 9;
+}
+
+/* 内容body部分 */
+.contract-body {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* 合同信息 */
+.contract-information {
+  width: 1200px;
+  height: 90px;
+}
+
+
+
+.contract-infor-img {
+  width: 1000px;
+  position: relative;
+  height: 48px;
+  margin: 40px auto;
+}
+
+.contract-information span {
+  margin: 5px -123px;
+  float: left;
+  font-size: 18px;
+}
+
+.contract-information .contract-infor-back {
+  background: no-repeat url(../../assets/images/上传合同3.png);
+  background-size: 150px 30px;
+  height: 30px;
+  width: 160px;
+  margin-left: 0px;
+  float: left;
+}
+
+.Preview-head .contract-information-button {
+  float: right;
+}
+
+.search-infor-button {
+  text-decoration: none;
+  font-size: 13px;
+  display: inline-block;
+  line-height: 23px;
+  font-size: 13px;
+  width: 60px;
+  height: 23px;
+  border: 1px solid #be926f;
+  color: #be926f;
+  background: transparent none;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+.search-infor-button:hover {
+  color: #ffffff;
+  background: #be926f;
+}
+
+.contract-infor-squar {
+  width: 1000px;
+  height: 40px;
+  border-bottom: 2px solid #be926f;
+}
+
+/* 合同信息名称 */
+.navigation {
+  width: 1200px;
+  height: 60px;
+  margin: 0px auto;
+}
+
+.navigation ul li {
+  display: inline-block;
+  width: 1000px;
+  height: 30px;
+}
+
+.bg-purple-light {
+  width: 200px;
+  height: 20px;
+  text-align: left;
+  margin: -3px 0px 0px -70px;
+  font-size: 14px;
+}
+
+.bg-purple-one {
+  text-align: left;
+  width: 500px;
+  height: 20px;
+  margin: -3px 0px 0px -220px;
+}
+
+.bg-purple {
+  width: 200px;
+  height: 20px;
+  text-align: left;
+  font-size: 13px;
+}
+
+.bg-purple-dark {
+  width: 300px;
+  height: 20px;
+  text-align: left;
+}
+
+/* 合同详情 */
+.contract-my {
+  margin: 46px 0px -2px 0px;
+  /* background: url(../../assets/images/合同预览.png); */
+  width: 1000px;
+  height: 875px;
+  /* text-align: center; */
+  display: inline-block;
+}
+
+.contract-my-back {
+  margin-top: 30px;
+  width: 820px;
+  height: 800px;
+  overflow: auto;
+  display: inline-block;
+  box-shadow: 0px 0px 13px 3px #bababa;
+}
+
+.contract-my-words {
+  margin: 6px 0px 0px 10px;
+  background-color: #ffffff;
+  width: 975px;
+  height: 860px;
+  border: 0.5px solid #be926f;
+  color: #be926f;
+  border-radius: 20px;
+}
+
+.contractFile {
+  width: 800px;
+  margin: 4px 0px -2px 0px;
+  padding: 0;
+}
+
+.contract-my-back1 {
+  position: absolute;
+  margin: 65px -785px;
+  width: 595px;
+  height: 842px;
+  display: inline-block;
+  border: 0.5px solid #be926f;
+  border-radius: 20px;
+}
+
+/* .contract-my-words:hover {
+  box-shadow: 5px 3px 10px #797878;
+} */
+/*  尾部*/
+.navigation-foot {
+  color: #ffffff;
+  position: fixed;
+  z-index: 7;
+  background-color: black;
+  bottom: 0px;
+  width: 100%;
+  height: 58px;
+}
+
+.navigation-foot-words {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 1200px;
+  font-size: 12px;
+  line-height: 58px;
+  text-align: center;
+}
+
+.width800 {
+  width: 800px;
+  height: 1132px;
+}

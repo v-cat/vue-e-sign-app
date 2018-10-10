@@ -1,0 +1,53 @@
+ .contract-my-seall {
+   margin: 10px auto;
+ }
+
+ /*  */
+
+ /* 表格 */
+ .select-head {
+   background: #ffffff;
+   width: 1000px;
+   height: 30px;
+   padding: 10px 0px;
+   margin: 5px 0px 0px 0px;
+ }
+
+
+ .New-select {
+   float: left;
+   margin: 0px 7px;
+   width: 200px;
+   position: relative;
+ }
+
+ .New-button {
+   width: 300px;
+   margin-left: 200px;
+   margin-top: 2px;
+   position: absolute;
+ }
+
+ .New-seal {
+   margin: 0px 20px;
+ }
+
+ .search-infor-btn {
+   text-decoration: none;
+   font-size: 13px;
+   padding: 2px 5px;
+   line-height: 23px;
+   font-size: 12px;
+   width: 45px;
+   height: 23px;
+   border: 1px solid #be926f;
+   color: #be926f;
+   background: transparent none;
+   border-radius: 5px;
+   margin: 0 3px;
+ }
+
+ .search-infor-btn:hover {
+   color: #ffffff;
+   background: #be926f;
+ }

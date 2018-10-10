@@ -1,0 +1,99 @@
+/* 添加 印章管理 */
+* {
+  padding: 0;
+  list-style: none;
+}
+
+.append-infor {
+  width: 1000px;
+  margin: 20px auto;
+}
+
+.contract-infor-back {
+  background: no-repeat url(../../../assets/images/印章信息.png);
+  height: 20px;
+  width: 100px;
+  margin: 3px;
+  float: left;
+}
+
+.sign-name {
+  margin-top: 10px;
+  position: absolute;
+}
+
+.sign-name span {
+  margin: 3px -80px;
+  float: left;
+  font-size: 14px;
+}
+
+.append-infor-button {
+  text-decoration: none;
+  float: right;
+  font-size: 13px;
+  width: 52px;
+  border: 1px solid #be926f;
+  color: #be926f;
+  padding: 2px 4px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.contract-infor-squar {
+  width: 1000px;
+  height: 50px;
+  border-bottom: 1px solid #be926f;
+}
+
+/* 按钮 */
+.sign-name-info .el-tabs--card>.el-tabs__header {
+  border-bottom: 0px;
+}
+
+.sign-name-info .el-tabs--card>.el-tabs__header .el-tabs__nav {
+  border: 0px;
+  margin: 0px auto;
+  float: right;
+}
+
+.sign-name-info .el-tabs--card>.el-tabs__header .el-tabs__nav div {
+  border: 0.5px solid #be926f;
+  border-radius: 5px;
+  margin: 0px 10px;
+  padding: 0px 10px;
+  height: 30px;
+  line-height: 30px;
+  color: #be926f;
+}
+
+.el-tabs--card>.el-tabs__header .el-tabs__item.is-active {
+  border-bottom-color: #be926f;
+  background-color: #be926f;
+  color: #fff !important;
+  border-radius: 5px;
+}
+
+.el-tabs--card>.el-tabs__header {
+  border-bottom: 0px solid #e4e7ed;
+}
+
+.sign-name-info .el-tabs__header .el-tabs__nav-scroll {
+  width: 950px;
+}
+
+.sign-name-info .el-tabs .el-tabs__header {
+  margin-top: -40px;
+}
+
+/* .signature-seal .el-tabs--card>.el-tabs__header .el-tabs__item:first-child {
+  border: 1px solid #be926f;
+} */
+
+.el-icon-arrow-left:before {
+  content: " ";
+}
+
+.el-icon-arrow-right:before {
+  content: " ";
+}

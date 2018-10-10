@@ -1,0 +1,62 @@
+.StorageData .minx-tabs .el-tabs--left .el-tabs__header .el-tabs__item {
+  height: 80px;
+  line-height: 80px;
+  font-size: 20px;
+  padding: 0px 40px;
+}
+
+.StorageData .minx-tabs .el-tabs--left {
+  border: 1px solid #dec9b8;
+  border-radius: 10px;
+  padding: 25px 15px;
+}
+
+.StorageData .el-tabs .el-tabs__content {
+  margin-left: 150px;
+  float: left;
+}
+
+.StorageData .el-tabs--left .el-tabs__nav-wrap.is-left,
+.StorageData .el-tabs--left .el-tabs__nav-scroll,
+.StorageData .el-tabs--left .el-tabs__header {
+  height: 320px;
+  width: 145px;
+  position: absolute;
+}
+
+.StorageData .el-tabs--left .el-tabs__nav-wrap.is-left::after,
+.StorageData .el-tabs--left .el-tabs__nav-wrap.is-right::after,
+.StorageData .el-tabs--right .el-tabs__nav-wrap.is-left::after,
+.StorageData .el-tabs--right .el-tabs__nav-wrap.is-right::after {
+  width: 2px;
+  bottom: auto;
+  top: 0;
+}
+
+.StorageData .el-tabs--left .el-tabs__active-bar.is-left {
+  height: 80px !important;
+}
+
+/* .StorageData.el-tabs__active-bar {
+  height: 80px !important;
+} */
+
+.StorageData .el-tabs__nav-wrap::after {
+  content: "";
+}
+
+.StorageData .evidence-framework {
+  margin: 55px 0 45px;
+  height: 670px;
+  border: 1px solid #dec9b8;
+
+  border-radius: 10px;
+}
+
+.StorageData .evidence-framework-img {
+  width: 1099px;
+  height: 618px;
+  margin: 12px 50px 0;
+  background-image: url(../../assets/copyImg/11.png);
+  background-repeat: no-repeat;
+}

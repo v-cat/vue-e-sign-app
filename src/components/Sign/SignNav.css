@@ -1,0 +1,39 @@
+/* 左右 */
+
+.el-carousel__container .el-carousel__arrow--left {
+  left: 7px;
+  margin-top: 40px;
+  background: no-repeat url(../../assets/images/签章3.png);
+}
+
+.el-carousel__container .el-carousel__arrow--left:hover {
+  background-color: transparent;
+  background: no-repeat url(../../assets/images/签章5.png);
+}
+
+.el-carousel__container .el-icon-arrow-left:before {
+  content: '';
+}
+
+.el-carousel__container .el-icon-arrow-right:before {
+  content: ' ';
+}
+
+.el-carousel__container .el-carousel__arrow {
+  height: 20px;
+  width: 20px;
+  background-color: transparent;
+  color: #fff;
+  border-radius: 0;
+}
+
+.el-carousel__container .el-carousel__arrow--right {
+  background: no-repeat url(../../assets/images/签章4.png);
+  right: 0px;
+  margin-top: 40px;
+}
+
+.el-carousel__container .el-carousel__arrow--right:hover {
+  background: no-repeat url(../../assets/images/签章6.png);
+  background-color: transparent;
+}

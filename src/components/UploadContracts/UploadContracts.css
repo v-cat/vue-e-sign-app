@@ -1,0 +1,418 @@
+* {
+  margin: -3px 0px -2px 0px;
+  padding: 0;
+  list-style: none;
+}
+
+#person {
+  /* height: 1500px; */
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+/*  导航条 */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9;
+}
+
+.UploadContracts .navigation-back {
+  background-color: black;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  height: 58px;
+  z-index: 4;
+}
+
+.navigationWords {
+  height: 58px;
+  width: 1200px;
+  /* background: rebeccapurple; */
+  position: relative;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.navigation-a ul li {
+  margin-top: 2px;
+  display: inline-block;
+}
+
+.navigation-a ul li a {
+  text-decoration: none;
+  padding: 0px 15px;
+  margin: 0px 15px;
+  line-height: 58px;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.navigation-a {
+  z-index: 12;
+  width: 1000px;
+  margin: 7px 0px;
+  position: fixed;
+  top: -8px;
+}
+
+.navigation-a a:hover {
+  color: #be926f;
+  border-bottom: 1px solid #be926f;
+}
+
+/* 按钮 */
+.navigation-Icons {
+  margin: -36px 0px 0px 900px;
+  position: fixed;
+}
+
+.search-infor-a {
+  text-decoration: none;
+  font-size: 13px;
+  display: inline-block;
+  line-height: 23px;
+  font-size: 13px;
+  width: 45px;
+  height: 23px;
+  border: 1px solid #be926f;
+  color: #be926f;
+  background: transparent none;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+.search-infor-contact {
+  font-size: 13px;
+  color: #be926f;
+  border: 2px solid #be926f;
+  border-radius: 5px;
+  padding: 3px 8px;
+}
+
+.search-infor-a:hover,
+.search-infor-contact:hover {
+  color: #ffffff;
+  background: #be926f;
+}
+
+.contract-body {
+  width: 1200px;
+  /* height: 720px; */
+  margin: 0 auto 80px auto;
+}
+
+/* 信息 */
+.UploadContracts .contract-information-button {
+  float: right;
+}
+
+.search-infor-button {
+  text-decoration: none;
+  font-size: 13px;
+  display: inline-block;
+  line-height: 23px;
+  font-size: 13px;
+  width: 60px;
+  height: 23px;
+  border: 1px solid #be926f;
+  color: #be926f;
+  background: transparent none;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+.search-infor-button:hover {
+  color: #ffffff;
+  background: #be926f;
+}
+
+/* 上传合同 */
+/* .upload-infor {
+  width: 300px;
+  margin: 30px 170px;
+} */
+.file,
+.revert-file {
+  width: 119px;
+  height: 190px;
+  padding-top: 10px;
+}
+
+.backgroung:hover {
+  background: no-repeat url(../../assets/images/上传合同长.png);
+}
+
+.backgroung {
+  background: repeat url(../../assets/images/上传合同短.png);
+}
+
+.backgroungWhite {
+  background: repeat url(../../assets/images/合同上传.png);
+}
+
+.backgroungWhite:hover {
+  background: repeat url(../../assets/images/重新上传.png);
+}
+
+/* 
+.revert:hover {
+  background: no-repeat url(../../assets/images/重新上传合同长.png);
+} */
+.revert {
+  background: repeat url(../../assets/images/重新上传合同短.png);
+}
+
+.width160 {
+  width: 160px;
+  margin: -313px 0px 0px 0;
+}
+
+/* .revertWhite {
+  background: repeat url(../../assets/images/重新合同上传.png);
+} */
+.file input,
+.revert-file input {
+  position: absolute;
+  font-size: 100px;
+  right: 0;
+  top: 0;
+  opacity: 0;
+  width: 119px;
+  height: 190px;
+}
+
+.upload-infor {
+  width: 120px;
+  padding-top: 10px;
+  margin: 30px auto;
+  position: relative;
+}
+
+.upload-infor table {
+  position: absolute;
+}
+
+.upload-Icon {
+  width: 80px;
+  height: 80px;
+  fill: #be926f;
+}
+
+.upload-word {
+  margin: 140px auto;
+  font-size: 25px;
+}
+
+.revert {
+  margin: 0px 0px 0px 180px;
+}
+
+/* 添加合同信息 */
+.contract-information {
+  width: 1200px;
+  /* margin-bottom: 120px; */
+  margin: 0px auto;
+}
+
+.contract-information .contract-infor-back {
+  /* display: inline-block; */
+  background: no-repeat url(../../assets/images/上传合同3.png);
+  height: 36px;
+  width: 160px;
+  margin-left: 0px;
+  float: left;
+  /*  */
+}
+
+.contract-information span {
+  margin: 3px -135px;
+  float: left;
+  font-size: 18px;
+}
+
+.contract-infor-img {
+  width: 1000px;
+  float: left;
+  position: relative;
+  height: 100px;
+  /* background: blue; */
+  margin: 0px auto;
+}
+
+.contract-information span {
+  margin: 3px -135px;
+  float: left;
+  font-size: 18px;
+}
+
+.contract-infor-squar {
+  width: 1000px;
+  height: 45px;
+  border-bottom: 2px solid #be926f;
+}
+
+/* 签署方信息 */
+.contract-information .contract-infor-back2 {
+  /* display: inline-block; */
+  background: url(../../assets/images/上传合同4.png);
+  height: 36px;
+  width: 180px;
+  margin-left: 0px;
+  float: left;
+  /*  */
+}
+
+.contract-information .contract-inforword1 {
+  margin: 3px -150px;
+  float: left;
+  font-size: 18px;
+}
+
+.contract-infor-form {
+  width: 500px;
+  margin: -16px auto;
+}
+
+.marginbottom100 {
+  margin-bottom: 100px;
+}
+
+.menu {
+  font-size: 12px;
+  height: 70px;
+}
+
+.menu .el-form-item.is-error .el-input__inner {
+  border: 0.1px solid #dccfc3 !important;
+}
+
+.menu input:focus {
+  background-color: #faf2ea !important;
+  border: 1px solid #be926f !important;
+}
+
+.contract-name {
+  margin: 0px 35px 0px 0px;
+}
+
+.delect-infor {
+  float: right;
+  margin: -34px -270px;
+}
+
+.login-check span {
+  display: inline-block;
+  position: relative;
+  font-size: 12px;
+  cursor: pointer;
+  padding: 0px 40px;
+  margin-top: 4px;
+}
+
+/* .input_check {
+  position: absolute;
+  visibility: hidden;
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  border: 1px solid #be926f;
+}
+
+.login-check .input_check + label {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #be926f;
+}
+
+.login-check .input_check:checked + label:after {
+  content: '';
+  position: absolute;
+  left: 40px;
+  bottom: 6px;
+  width: 9px;
+  height: 2px;
+  border: 2px solid #be926f;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  -ms-transform: rotate(-60deg);
+  -moz-transform: rotate(-60deg);
+  -webkit-transform: rotate(-60deg);
+  transform: rotate(-45deg);
+}
+
+ */
+/* .input_check1 {
+  position: absolute;
+  visibility: hidden;
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  border: 1px solid #be926f;
+}
+
+  .input_check1 + label {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #be926f;
+}
+
+  .input_check1:checked + label:after {
+  content: '';
+  position: absolute;
+  left: 40px;
+  bottom: 6px;
+  width: 9px;
+  height: 2px;
+  border: 2px solid #be926f;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  -ms-transform: rotate(-60deg);
+  -moz-transform: rotate(-60deg);
+  -webkit-transform: rotate(-60deg);
+  transform: rotate(-45deg);
+}
+ */
+.check-infor {
+  float: right;
+  margin: -19px -25px;
+}
+
+.check-infor2 {
+  margin: 7px 220px;
+}
+
+.check-infor1 {
+  float: left;
+  width: 100px;
+  height: 20px;
+  margin: 10px 145px;
+}
+
+/*  尾部*/
+.navigation-foot {
+  color: #ffffff;
+  position: fixed;
+  z-index: 7;
+  background-color: black;
+  bottom: 0px;
+  width: 100%;
+  height: 58px;
+}
+
+.navigation-foot-words {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 1200px;
+  font-size: 12px;
+  line-height: 58px;
+  text-align: center;
+}
+
+.height50 {
+  height: 50px
+}

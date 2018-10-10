@@ -1,0 +1,252 @@
+body {
+  font-family: "Microsoft YaHei", 微软雅黑, "Open Sans", PingFangSC-Light, Arial, "Hiragino Sans GB", STHeiti, "WenQuanYi Micro Hei", SimSun, sans-serif;
+}
+
+* {
+  padding: 0;
+  list-style: none;
+}
+
+#home {
+  height: 100%;
+}
+
+/* 5 */
+
+.e_contract-value-ul .minx-produce-bt {
+  text-align: center;
+  font-size: 30px;
+  font-weight: normal;
+  padding: 0px;
+}
+
+/* .mx-produce .show-text {
+   right: 0;
+  width: 600px;
+  top: 70px;
+  text-align: left
+}
+
+.mx-produce .minx-management .minx-produce-l {
+  width: 100%;
+  
+  top: 120px;
+  position: absolute;
+}
+
+.mx-produce .minx-management .minx-produce-l img {
+  float: right;
+  right: 0;
+ 
+} */
+
+/* 4 */
+
+.padbtm80 {
+  padding-bottom: 80px;
+}
+
+.padbtm10 {
+  padding-bottom: 10px;
+}
+
+.minx-job .show-text {
+  position: absolute;
+  right: 0;
+  width: 480px;
+  top: 70px;
+  text-align: left
+}
+
+/* 1 */
+
+.minx-APP .show-text {
+  position: absolute;
+  right: 0;
+  top: 200px;
+  width: 240px;
+}
+
+.show-text h3 {
+  font-size: 30px;
+  font-weight: normal;
+  margin-bottom: 35px;
+}
+
+.show-text p {
+  font-size: 14px;
+  line-height: 25px;
+}
+
+/* 3 */
+
+.minx-produce-liuc {
+  padding: 0 20px;
+  position: relative;
+  margin-bottom: 80px;
+}
+
+.minx-produce-liuc ul {
+  overflow: hidden;
+}
+
+.minx-produce-liuc li {
+  float: left;
+  width: 25%;
+  text-align: center;
+  position: relative;
+  margin: 30px 0;
+}
+
+.minx-produce-liuc li .one {
+  background-position: 0 -1143px;
+}
+
+.minx-produce-liuc li span {
+  width: 115px;
+  height: 115px;
+  display: block;
+  background: url(../../../assets/copyImg/fdd_all.png) no-repeat;
+  margin: 0 auto;
+}
+
+.minx-produce-liuc li p {
+  font-size: 16px;
+  margin: 0 32%;
+  display: block;
+  padding: 15px 0;
+  height: 24px;
+  overflow: hidden;
+}
+
+.minx-produce-liuc li em {
+  position: absolute;
+  right: -11px;
+  top: 48px;
+  display: block;
+  width: 24px;
+  height: 24px;
+  background: url(../../../assets/copyImg/fdd_all.png) no-repeat;
+  background-position: -472px -1146px;
+}
+
+.minx-produce-liuc li .two {
+  background-position: -118px -1143px;
+}
+
+.minx-produce-liuc li .three {
+  background-position: -235px -1143px;
+}
+
+.minx-produce-liuc li .four {
+  background-position: -353px -1143px;
+}
+
+.minx-produce-liuc li:nth-child(4) em {
+  right: 50%;
+  margin-right: -12px;
+  top: 165px;
+  transform: rotate(90deg);
+}
+
+.minx-produce-liuc ul:nth-child(2) li {
+  float: right;
+}
+
+.minx-produce-liuc li .eight {
+  background-position: -353px -1263px;
+}
+
+.minx-produce-liuc ul:nth-child(2) li em {
+  right: inherit;
+  left: -13px;
+}
+
+.minx-produce-liuc li .nine {
+  background-position: -473px -1174px;
+}
+
+.minx-produce-liuc li .seven {
+  background-position: -235px -1263px;
+}
+
+.minx-produce-liuc ul:nth-child(2) li em {
+  right: inherit;
+  left: -13px;
+}
+
+.minx-produce-liuc li .nine {
+  background-position: -473px -1174px;
+}
+
+.minx-produce-liuc li .six {
+  background-position: -118px -1263px;
+}
+
+.minx-produce-liuc ul:nth-child(2) li em {
+  right: inherit;
+  left: -13px;
+}
+
+.minx-produce-liuc li .nine {
+  background-position: -473px -1174px;
+}
+
+.minx-produce-liuc li .five {
+  background-position: 0 -1263px;
+}
+
+.minx-produce-liuc ul:nth-child(2) li:last-child em {
+  display: none;
+}
+
+.minx-produce-liuc ul:nth-child(2) li em {
+  right: inherit;
+  left: -13px;
+}
+
+.minx-produce-liuc li:nth-child(4) em {
+  right: 50%;
+  margin-right: -12px;
+  top: 165px;
+  transform: rotate(90deg);
+}
+
+.minx-produce-liuc li .nine {
+  background-position: -473px -1174px;
+}
+
+.minx-produce-liuc .minx-pop-line {
+  position: absolute;
+  bottom: 24px;
+  border: 2px dashed #be926f;
+  border-top: none;
+  width: 48%;
+  height: 25px;
+  text-align: center;
+  left: 14%;
+}
+
+.minx-produce-liuc .minx-pop-line:before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  height: 25px;
+  border-left: 2px dashed #be926f;
+}
+
+.minx-produce-liuc .minx-pop-line span {
+  position: absolute;
+  bottom: -30px;
+  font-size: 16px;
+  width: 100%;
+  left: 0;
+  color: #be926f;
+}
+
+.minx-advantage .minx-produce-ys .minx-produce-ba {
+  color: #333;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 30px 0 5px;
+}

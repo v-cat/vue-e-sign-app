@@ -1,0 +1,75 @@
+/* 2 */
+
+/* 
+.row .left-table-content {
+  margin-left: 34px;
+} */
+
+.row .center-table-content,
+.row .left-table-content,
+.row .right-table-content {
+  margin-top: 60px;
+  padding: 0px 18px;
+}
+
+.ty_signature-function .center-table-content li,
+.ty_signature-function .left-table-content li,
+.ty_signature-function .right-table-content li {
+  line-height: 12px;
+  height: 12px;
+  ;
+  /* margin-bottom: 21px; */
+  color: #666;
+}
+
+li,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.ty_signature-function .redcircle {
+  display: inline-block;
+  text-align: left;
+  float: left;
+  width: 5px;
+  height: 5px;
+  margin: 5px;
+  line-height: 20px;
+  border-radius: 4px;
+  border: 2px solid #be926f;
+  /* margin-right: 8px; */
+}
+
+.redcircle-content {
+  /* display: inline-block; */
+  text-align: left;
+  /* float: left; */
+  height: 20px;
+  line-height: 20px;
+  font-size: 12px;
+}
+
+.ty_signature-function ul li div.function-tags {
+  height: 222px;
+}
+
+/* .e_signature-function ul li:first-child {
+  margin-top: 20px
+} */
+
+.minx-productValue .e_contract-value ul li {
+  width: 274px;
+  height: 270px;
+}
+
+.col-li {
+  width: 500px;
+  margin: 0px 38px;
+}
+
+.minx-wid-178 .col-li div.function-tags {
+  height: 170px;
+  margin-bottom: 80px;
+}

@@ -1,0 +1,88 @@
+ * {
+   padding: 0;
+   list-style: none;
+ }
+
+ /* 印章外框背景 */
+ .signature-seal {
+   position: absolute;
+   background-color: #f2f2f2;
+   margin: 40px 0px 100px 0px;
+   margin-left: auto;
+   width: 1199px;
+   border: 0.5px solid #d6c7bb;
+   border-radius: 20px;
+ }
+
+ /* 添加 印章管理 */
+ .append-infor {
+   width: 1000px;
+   margin: 20px auto;
+ }
+
+ .contract-infor-back {
+   background: no-repeat url(../../../assets/images/印章信息.png);
+   height: 20px;
+   width: 100px;
+   margin: 3px;
+   float: left;
+ }
+
+ .sign-name {
+   margin-top: 10px;
+   position: absolute;
+ }
+
+ .sign-name span {
+   margin: 3px -80px;
+   float: left;
+   font-size: 14px;
+ }
+
+ .append-infor-button {
+   text-decoration: none;
+   float: right;
+   font-size: 13px;
+   width: 52px;
+   border: 1px solid #be926f;
+   color: #be926f;
+   padding: 2px 4px;
+   border-radius: 5px;
+   margin-right: 20px;
+ }
+
+ .contract-infor-squar {
+   width: 1000px;
+   height: 50px;
+   border-bottom: 1px solid #be926f;
+ }
+
+
+
+ .sign-name-info {
+   width: 950px;
+   /* height: 40px; */
+   margin-top: -40px;
+ }
+
+ .signature-navs {
+   right: 150px;
+   position: absolute;
+   margin-top: -50px;
+ }
+
+ .sign-name-info .signature-infor-words {
+   text-decoration: none;
+   border: 0.5px solid #be926f;
+   border-radius: 5px;
+   margin: 0px 10px;
+   padding: 3px 10px;
+   height: 30px;
+   line-height: 30px;
+   color: #be926f;
+ }
+
+ .signature-navs .router-link-exact-active {
+   color: #f2f2f2;
+   background-color: #be926f;
+ }

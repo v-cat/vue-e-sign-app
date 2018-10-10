@@ -1,0 +1,50 @@
+ .el-tabs .el-tabs__item {
+   padding: 0 30px;
+   font-size: 15px;
+ }
+
+ .el-tabs__header .el-tabs__nav-wrap::after {
+   height: 0px;
+ }
+
+ .el-badge .el-badge__content {
+   background-color: #f56c6c;
+   border-radius: 10px;
+   border: 0px;
+   padding: 0px;
+   color: #fff;
+   font-size: 12px;
+   width: 15px;
+   height: 15px;
+   line-height: 14px;
+   text-align: center;
+   font-size: 12px;
+ }
+
+ .navigationWords .navigation-a ul .words-nav .router-link-active {
+   color: #be926f;
+ }
+
+ /* 购物车等图标 */
+ .el-dropdown-menu .el-dropdown-menu__item .selectTo {
+   padding: 10px 30px;
+   color: black;
+   text-align: none;
+   text-decoration: none;
+ }
+
+ .el-dropdown-menu .el-dropdown-menu__item .selectTo:hover {
+   color: #be926f;
+ }
+
+ /* 个人中心 */
+ .inputcheck .el-form {
+   height: 40px;
+ }
+
+ .inputcheck .el-form input {
+   height: 25px;
+   width: 130px;
+   font-size: 12px;
+   padding: 0px 8px;
+ }

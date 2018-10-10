@@ -1,0 +1,21 @@
+.account-contract-body {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+* {
+  padding: 0;
+  list-style: none;
+}
+
+.account-contract-seal {
+  width: 1200px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  background-color: #f2f2f2;
+  border: 0.5px solid #d6c7bb;
+  border-radius: 20px;
+}

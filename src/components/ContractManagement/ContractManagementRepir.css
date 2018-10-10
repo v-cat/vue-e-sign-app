@@ -1,0 +1,13 @@
+.contract-my-text .el-table__body-wrapper {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: 385px;
+}
+
+.btn-prev .el-icon-arrow-left:before {
+  content: "\E600";
+}
+
+.btn-next .el-icon-arrow-right:before {
+  content: "\E604";
+}
