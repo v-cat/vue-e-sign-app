@@ -20,6 +20,7 @@
     "js-base64": "^2.4.0",
     "js-md5": "^0.7.3",
     "js-sha1": "^0.6.0",
+    "js-sha256": "^0.9.0",
     "layui-src": "^2.3.0",
     "moment": "^2.22.2",
     "promise-polyfill": "^8.0.0",

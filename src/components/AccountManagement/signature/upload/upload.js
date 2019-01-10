@@ -1,5 +1,4 @@
 import utils from '../../../../utilPackage/utils.js'
-import sha1 from 'js-sha1'
 // import from '../signature.js'
 export default {
   name: 'upload',
@@ -29,29 +28,15 @@ export default {
   },
   created() {
     let self = this
-    // $(".acc-signature").css("color", "#be926f",
-    //   "border-bottom", "1px")
     $(".acc-signature").addClass("select-signature");
-    // var each = document.getElementsByClassName('search-infor-words')
-    // // each.color = "red";
-    // console.log(each)
   },
   methods: {
-    // 预览图片点击事件
-    // PreviewImgClick(e) {
-    //   if (this.isUpload) {
-    //     e.currentTarget.nextElementSibling.click()
-    //   } else {
-    //     utils.PubVue().$emit('id-sealmademodal')
-    //   }
-    // },
     handleAvatarSuccess(res, file) {
       this.imageUrl = URL.createObjectURL(file.raw);
     },
     beforeAvatarUpload(file) {
       const isPNG = file.type === 'image/png';
       const isLt2M = file.size / 1024 / 1024 < 2;
-
       if (!isPNG) {
         this.$message.error('上传头像图片只能是 PNG 格式!');
       }
@@ -59,7 +44,6 @@ export default {
         this.$message.error('上传头像图片大小不能超过 2MB!');
       }
       return isPNG && isLt2M;
-
     },
     // 文件改变
     FileChange(e) {

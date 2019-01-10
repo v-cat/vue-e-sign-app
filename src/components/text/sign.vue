@@ -1,16 +1,27 @@
 <template>
-    <p class="hello">
-        <!--touchstart,touchmove,touchend,touchcancel 这-->
-        <button type="" v-on:click="clear">清除</button>
-        <button v-on:click="save">保存</button>
-        <canvas id="canvas" width="300" height="600" style="border:1px solid black">Canvas画板</canvas>
-        <img v-bind:src="url" alt="">
-    </p>
+  <p class="hello">
+    <!--touchstart,touchmove,touchend,touchcancel 这-->
+    <button
+      type=""
+      v-on:click="clear"
+    >清除</button>
+    <button v-on:click="save">保存</button>
+    <canvas
+      id="canvas"
+      width="300"
+      height="600"
+      style="border:1px solid black"
+    >Canvas画板</canvas>
+    <img
+      v-bind:src="url"
+      alt=""
+    >
+  </p>
 
 </template>
 <script>
 var draw
-var preHandler = function(e) {
+var preHandler = function (e) {
   e.preventDefault()
 }
 class Draw {
@@ -29,11 +40,11 @@ class Draw {
   init(btn) {
     var that = this
 
-    this.canvas.addEventListener('touchstart', function(event) {
+    this.canvas.addEventListener('touchstart', function (event) {
       document.addEventListener('touchstart', preHandler, false)
       that.drawBegin(event)
     })
-    this.canvas.addEventListener('touchend', function(event) {
+    this.canvas.addEventListener('touchend', function (event) {
       document.addEventListener('touchend', preHandler, false)
       that.drawEnd()
     })
@@ -52,7 +63,7 @@ class Draw {
     )
     this.path.beginX = e.changedTouches[0].clientX - this.stage_info.left
     this.path.beginY = e.changedTouches[0].clientY - this.stage_info.top
-    canvas.addEventListener('touchmove', function() {
+    canvas.addEventListener('touchmove', function () {
       that.drawing(event)
     })
   }
@@ -91,21 +102,21 @@ export default {
     draw.init()
   },
   methods: {
-    clear: function() {
+    clear: function () {
       draw.clear()
     },
-    save: function() {
+    save: function () {
       var data = draw.save()
       this.url = data
-      console.log(data)
+      // console.log(data)
     },
     mutate(word) {
       this.$emit('input', word)
     }
   }
 }
-</script> 
-<!-- Add "scoped" attribute to limit CSS to this component only --> 
+</script>
+<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 h1,
 h2 {

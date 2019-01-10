@@ -1,9 +1,9 @@
 export default {
 
-  //ApiRoot: 'http://192.168.3.5:8090/wafa',
+  ApiRoot: 'http://192.168.3.5:8090/wafa',
   //  ApiRoot: 'http://0.0.0.0:8081/wafa',
   // ApiRoot: 'http://192.168.3.65:8080/wafa',
-  ApiRoot: window.CONFIG.ApiRoot,
+  // ApiRoot: window.CONFIG.ApiRoot,
   contractState: {
     's001': {
       'name': '未签署',

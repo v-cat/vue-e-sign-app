@@ -19,7 +19,7 @@ import Preview from '../components/Preview/Preview.vue'
 // 签署
 import Sign from '../components/Sign/Sign.vue'
 // 上传图片印章
-import text from '../components/text/text.vue'
+import text from '../components/text/img.vue'
 // 企业认证
 // import Company from '../components/Company/Company.vue'
 // 合同认证
@@ -61,6 +61,10 @@ import personalinfor from '../components/AccountManagement/personalinfor/persona
 import seal from '../components/AccountManagement/signature/seal/seal.vue'
 import signhand from '../components/AccountManagement/signature/signhand/signhand.vue'
 import upload from '../components/AccountManagement/signature/upload/upload.vue'
+//电信上传印章
+import uploading from '../components/AccountManagement/signature/uploading/uploading.vue'
+//签名设置
+import signOcx from '../components/signOcx/signOcx.vue'
 Vue.use(VueRouter)
 const routes = [{
     name: 'AccountManagement',
@@ -73,18 +77,25 @@ const routes = [{
         component: signature,
         // redirect: 'signature/seal',
         children: [{
-          path: 'seal',
-          name: 'seal',
-          component: seal
-        }, {
-          path: 'signhand',
-          name: 'signhand',
-          component: signhand
-        }, {
-          path: 'upload',
-          name: 'upload',
-          component: upload
-        }]
+            path: 'seal',
+            name: 'seal',
+            component: seal
+          }, {
+            path: 'signhand',
+            name: 'signhand',
+            component: signhand
+          },
+          {
+            path: 'upload',
+            name: 'upload',
+            component: upload
+          },
+          {
+            path: 'uploading',
+            name: 'uploading',
+            component: uploading
+          },
+        ]
       },
       {
         path: 'account',
@@ -227,10 +238,16 @@ const routes = [{
     component: Buy
   },
   {
+    path: '/signOcx',
+    name: 'signOcx',
+    component: signOcx
+  },
+  {
     path: '/',
     name: 'Home',
     component: Home
   },
+
 ];
 const routers = new VueRouter({
   routes

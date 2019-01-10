@@ -1,6 +1,7 @@
  import signhand from './signhand/signhand.vue'
  import seal from './seal/seal.vue'
  import upload from './upload/upload.vue'
+ import uploading from './uploading/uploading.vue'
  export default {
    name: 'signature',
    inject: ['reload'],
@@ -21,7 +22,8 @@
    components: {
      signhand,
      seal,
-     upload
+     upload,
+     uploading,
    },
    created() {
      let self = this

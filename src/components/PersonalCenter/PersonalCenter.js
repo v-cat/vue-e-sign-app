@@ -197,7 +197,7 @@ export default {
         },
         suc: function (result) {
           if (result.code === 0) {
-            self.contracts.list = result.rows
+            self.contracts.list = result.rows.rows
             var verifyinfor = result.rows.length
             if (verifyinfor === 0) {
               self.verify = true
@@ -226,16 +226,19 @@ export default {
 
     Preview: function (id) {
       let self = this
-      window.localStorage.setItem('Id', id)
+      window.localStorage.setItem('Id', id),
+        window.localStorage.setItem('isSign', 0)
       self.$router.replace({
-        name: 'Preview'
+        name: 'signOcx'
       })
     },
     GoSign: function (id) {
       let self = this
-      window.localStorage.setItem('Id', id)
+      window.localStorage.setItem('Id', id),
+        window.localStorage.setItem('isSign', 1)
       self.$router.replace({
-        name: 'Sign'
+        // name: 'Sign'
+        name: 'signOcx'
       })
     },
     HandSign(id) {

@@ -1,4 +1,5 @@
 import utils from '../../../utilPackage/utils.js'
+import sha1 from 'js-sha1'
 export default {
   name: 'company',
   props: {
@@ -121,6 +122,14 @@ export default {
           message: '请输入序号',
           trigger: 'blur'
         }],
+
+      },
+      ruless: {
+        Auther: [{
+          // required: true,
+          // message: "请填写授权码",
+          // trigger: "blur"
+        }]
       },
       ruleForm: {
         vcorpname: '',
@@ -143,10 +152,15 @@ export default {
         terminalnumber: '',
         certs: [],
         selCert: '',
+        Auther: '',
+      },
+      ruleForms: {
+        Auther: '',
       },
       // radio: '0',
       savebtn: false,
       // loading: false,
+      clickAuth: false,
       show: false,
       user: true,
       auth: {},
@@ -178,6 +192,7 @@ export default {
 
   },
   methods: {
+
     //校验上传文件
     CheckFile(file) {
       let self = this
@@ -439,6 +454,57 @@ export default {
         })
       }
     },
+    SaveAuth() {
+      var self = this
+      // if (self.ruleForm.Auth !== self.ruleForm.terminalkeysure) {
+      //   self.$alert('两次输入的密码不一样', '提示', {
+      //     type: 'warning',
+      //     callback: () => {}
+      //   })
+      // } else {
+      var password = sha1(self.ruleForms.Auther)
+      alert(password)
+      let params = {
+        password: password,
+      }
+      // 添加终端数据 数据
+      self.$api.Form({
+        url: self.$url.Erecord.Init,
+        headers: {
+          'WCOSIGNTOKEN': utils.Auth()
+        },
+        params: params,
+        suc: function (result) {
+
+          self.CompanyEnter = false
+          if (result.code === 0) {
+            self.CompanyEnter = false
+            self.$message('申请认证成功')
+
+            self.$router.replace({
+              name: 'company'
+            })
+
+            //self.ApiTermList(self.suppList.selItem)
+          } else {
+            self.$alert(result.msg, '提示', {
+              type: 'warning',
+              callback: () => {
+
+              }
+            })
+          }
+        },
+        err: function () {
+          self.CompanyEnter = false
+          self.$alert('申请认证错误，请检查网络。', '提示', {
+            type: 'error',
+            callback: () => {}
+          })
+        }
+      })
+    }
+    // }
   },
 
 }

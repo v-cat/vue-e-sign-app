@@ -28,7 +28,6 @@ export default {
       loading: {
         seal: false,
         contract: false,
-
       },
       // pathName: [],
 
@@ -62,6 +61,7 @@ export default {
           if (result.code === 0) {
             self.eseal.list = result.rows["eseallist"]
             self.loading.seal = false
+
             // console.log(self.eseal.list[3].xsourceimgstr)
             // var img = document.getElementsByClassName('removeIt')
             // Console.log(img)
@@ -330,7 +330,7 @@ export default {
           }
         })
       } else {
-        self.$alert('  请至少添加一个合同！', '提示', {
+        self.$alert('  请至少添加一个印章！', '提示', {
           type: 'error',
           callback: () => {}
         })

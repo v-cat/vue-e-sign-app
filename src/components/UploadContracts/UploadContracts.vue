@@ -1,5 +1,11 @@
 <template>
-  <div id="person " class="UploadContracts" v-loading="loading.upload" element-loading-text="拼命加载中" element-loading-background="rgba(236,235, 235, 0.8)">
+  <div
+    id="person "
+    class="UploadContracts"
+    v-loading="loading.upload"
+    element-loading-text="拼命加载中"
+    element-loading-background="rgba(236,235, 235, 0.8)"
+  >
     <!-- 导航文字 -->
     <div class="navigationWords">
       <div class="navigation-a">
@@ -8,7 +14,11 @@
             <router-link to="/PersonalCenter">首页</router-link>
           </li>
           <li>
-            <router-link class="activeLink" to="/contractManagement" id="activeLink">文件管理</router-link>
+            <router-link
+              class="activeLink"
+              to="/contractManagement"
+              id="activeLink"
+            >文件管理</router-link>
           </li>
           <li>
             <router-link to="/accountManagement">个人中心</router-link>
@@ -21,11 +31,22 @@
         <div class="navigation-Icons ">
           <ul>
             <li>
-              <span v-if="savebtn" class="search-infor-a">下一步</span>
-              <span v-else class="search-infor-a" @click="GoSave" v-loading="loading.saving">下一步</span>
+              <span
+                v-if="savebtn"
+                class="search-infor-a"
+              >下一步</span>
+              <span
+                v-else
+                class="search-infor-a"
+                @click="GoSave"
+                v-loading="loading.saving"
+              >下一步</span>
             </li>
             <li>
-              <span class="search-infor-a" @click="$router.back(-1)">取消</span>
+              <span
+                class="search-infor-a"
+                @click="$router.back(-1)"
+              >取消</span>
             </li>
             <li>
               <span class="search-infor-a">存草稿</span>
@@ -45,13 +66,23 @@
           <!-- 添加合同 -->
           <ul>
             <li>
-              <div class="file" v-bind:class="{ backgroung: isBackgroung, 'backgroungWhite': hasError }">
-                <input type="file" name="file" @change="FileChange">
+              <div
+                class="file"
+                v-bind:class="{ backgroung: isBackgroung, 'backgroungWhite': hasError }"
+              >
+                <input
+                  type="file"
+                  name="file"
+                  @change="FileChange"
+                >
 
               </div>
             </li>
             <li>
-              <h5 style="margin-top: 10px;word-wrap: break-word; " v-if="isUpload"> {{file.name}} </h5>
+              <h5
+                style="margin-top: 10px;word-wrap: break-word; "
+                v-if="isUpload"
+              > {{file.name}} </h5>
             </li>
           </ul>
 
@@ -60,9 +91,19 @@
       </div>
 
       <!-- 添加合同信息-->
-      <el-form :model="ruleForm" :rules="rules" ref="ruleForm" label-width="150px" size="medium" class="demo-ruleForm">
+      <el-form
+        :model="ruleForm"
+        :rules="rules"
+        ref="ruleForm"
+        label-width="150px"
+        size="medium"
+        class="demo-ruleForm"
+      >
         <div class="contract-information">
-          <table class="contract-infor-img" style="margin: -30px 0px 0px 0px;">
+          <table
+            class="contract-infor-img"
+            style="margin: -30px 0px 0px 0px;"
+          >
             <tr>
               <td>
                 <div class="contract-infor-back"></div>
@@ -77,13 +118,29 @@
             <tr>
               <td>
                 <div class="menu">
-                  <el-form-item label="合同编码:" prop="code" style="width: 350px;">
-                    <el-input v-model="ruleForm.code" placeholder="请输入合同编码" style="width:500px;"></el-input>
+                  <el-form-item
+                    label="合同编码:"
+                    prop="code"
+                    style="width: 350px;"
+                  >
+                    <el-input
+                      v-model="ruleForm.code"
+                      placeholder="请输入合同编码"
+                      style="width:500px;"
+                    ></el-input>
                   </el-form-item>
                 </div>
                 <div class="menu">
-                  <el-form-item label="合同主题:" prop="name" style="width: 350px;">
-                    <el-input v-model="ruleForm.name" placeholder="请输入合同主题" style="width:500px;"></el-input>
+                  <el-form-item
+                    label="合同主题:"
+                    prop="name"
+                    style="width: 350px;"
+                  >
+                    <el-input
+                      v-model="ruleForm.name"
+                      placeholder="请输入合同主题"
+                      style="width:500px;"
+                    ></el-input>
                   </el-form-item>
                 </div>
 
@@ -91,14 +148,23 @@
                   <el-form-item label="签署截止日期:">
                     <el-col :span="11">
                       <el-form-item>
-                        <el-date-picker type="date" placeholder="选择日期" v-model="ruleForm.datepick" style="width: 500px;"></el-date-picker>
+                        <el-date-picker
+                          type="date"
+                          placeholder="选择日期"
+                          v-model="ruleForm.datepick"
+                          style="width: 500px;"
+                        ></el-date-picker>
                       </el-form-item>
                     </el-col>
                   </el-form-item>
                 </div>
                 <div class="menu">
                   <el-form-item label="备注:">
-                    <el-input type="textarea" v-model="ruleForm.desc" placeholder="请添加备注信息"></el-input>
+                    <el-input
+                      type="textarea"
+                      v-model="ruleForm.desc"
+                      placeholder="请添加备注信息"
+                    ></el-input>
                   </el-form-item>
                 </div>
               </td>
@@ -111,7 +177,10 @@
             <tr>
               <td>
                 <div class="contract-infor-back2"></div>
-                <span class="contract-inforword1" id="activeLink"> 添加签署方信息</span>
+                <span
+                  class="contract-inforword1"
+                  id="activeLink"
+                > 添加签署方信息</span>
                 <div class="contract-infor-squar">
                 </div>
               </td>
@@ -122,28 +191,68 @@
               <td>
                 <div class="menu">
                   <el-form-item label="签署模式:">
-                    <el-select v-model="ruleForm.signPattern" placeholder="请选择签署模式" style="width: 500px;">
-                      <el-option label="签署文件（自己与对方均需签署，也可仅自己签署不发送）" value="签署文件"></el-option>
-                      <el-option label="发送文件（自己不需要签署，仅对方签署）" value="发送文件"></el-option>
+                    <el-select
+                      v-model="ruleForm.signPattern"
+                      placeholder="请选择签署模式"
+                      style="width: 500px;"
+                    >
+                      <el-option
+                        label="签署文件（自己与对方均需签署，也可仅自己签署不发送）"
+                        value="签署文件"
+                      ></el-option>
+                      <el-option
+                        label="发送文件（自己不需要签署，仅对方签署）"
+                        value="发送文件"
+                      ></el-option>
                     </el-select>
                   </el-form-item>
                 </div>
                 <div class="menu">
-                  <el-form-item label="签署顺序:" prop="signOrder">
-                    <el-select v-model="ruleForm.signOrder" placeholder="请选择签署顺序" style="width: 500px;">
-                      <el-option label="顺序签署（按签署顺序一人签署完毕再发送并提醒下一人，即A→B→C→D）" value="1"></el-option>
-                      <el-option label="无序签署（签署顺序不受限制）" value="2"></el-option>
-                      <el-option label="单独签署（发起方单独发送每个收件人签署，即A→B,A→C,A→D）" value="3"></el-option>
+                  <el-form-item
+                    label="签署顺序:"
+                    prop="signOrder"
+                  >
+                    <el-select
+                      v-model="ruleForm.signOrder"
+                      placeholder="请选择签署顺序"
+                      style="width: 500px;"
+                    >
+                      <el-option
+                        label="顺序签署（按签署顺序一人签署完毕再发送并提醒下一人，即A→B→C→D）"
+                        value="1"
+                      ></el-option>
+                      <el-option
+                        label="无序签署（签署顺序不受限制）"
+                        value="2"
+                      ></el-option>
+                      <el-option
+                        label="单独签署（发起方单独发送每个收件人签署，即A→B,A→C,A→D）"
+                        value="3"
+                      ></el-option>
                     </el-select>
                   </el-form-item>
                 </div>
                 <div>
-                  <el-form-item label="签署方:" required>
-                    <div v-for="(con, idx) in conList" class="height50">
+                  <el-form-item
+                    label="签署方:"
+                    required
+                  >
+                    <div
+                      v-for="(con, idx) in conList"
+                      class="height50"
+                    >
                       <el-col :span="11">
                         <div class="contract-name">
                           <el-form-item>
-                            <el-autocomplete popper-class="my-autocomplete" v-model="con.organization" :fetch-suggestions="QuerySearchAsync" placeholder="联系人（别名）" @select="HandleSelect" style="width: 200px;" @focus="Focus(idx)">
+                            <el-autocomplete
+                              popper-class="my-autocomplete"
+                              v-model="con.organization"
+                              :fetch-suggestions="QuerySearchAsync"
+                              placeholder="联系人（别名）"
+                              @select="HandleSelect"
+                              style="width: 200px;"
+                              @focus="Focus(idx)"
+                            >
                               <template slot-scope="{item}">
                                 <div class="name">{{ item.vcode }}</div>
                               </template>
@@ -154,11 +263,18 @@
                       <el-col :span="11">
                         <div class="contract-name">
                           <el-form-item>
-                            <el-input v-model="con.number" placeholder="账号（手机号/邮箱）" style="width: 200px;"></el-input>
+                            <el-input
+                              v-model="con.number"
+                              placeholder="账号（手机号/邮箱）"
+                              style="width: 200px;"
+                            ></el-input>
                           </el-form-item>
                         </div>
                       </el-col>
-                      <el-col :span="11" v-if="idx > 0">
+                      <el-col
+                        :span="11"
+                        v-if="idx > 0"
+                      >
                         <div class="search-infor-a delect-infor">
                           <a @click="DelContact(con)">删除</a>
                         </div>
@@ -169,7 +285,10 @@
                 <div>
                   <el-col :span="12">
                     <div class="check-infor1">
-                      <a class="search-infor-contact" @click="AddContact">添加签署方</a>
+                      <a
+                        class="search-infor-contact"
+                        @click="AddContact"
+                      >添加签署方</a>
                     </div>
                   </el-col>
                   <el-col :span="12">
@@ -202,14 +321,14 @@
     <!-- 尾部 -->
     <div class="navigation-foot">
       <div class="navigation-foot-words">
-        <a> copyright © 2016-2017 江苏敏行信息技术有限公司 All rights reserved</a>
+        <a> copyright © 2016-2020 江苏敏行信息技术有限公司 All rights reserved</a>
       </div>
     </div>
   </div>
 </template>
 <style scoped>
-@import './UploadContracts.css';
+@import "./UploadContracts.css";
 </style>
  <script src='./UploadContracts.js'></script>
- 
+
 

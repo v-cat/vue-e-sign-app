@@ -138,7 +138,7 @@ export default {
       let self = this
       self.loading = true
       var vvids = self.multipleSelection.join(',')
-      console.log(vvids)
+      // console.log(vvids)
       if (vvids == '') {
         self.$alert('请选择要标记的文件', '提示', {
           type: 'warning',
@@ -191,7 +191,7 @@ export default {
       let self = this
       self.loading = true
       var vvids = self.multipleSelection.join(',')
-      console.log(vvids)
+      // console.log(vvids)
       if (vvids == '') {
         self.$alert('请选择要标记的文件', '提示', {
           type: 'warning',
@@ -238,7 +238,7 @@ export default {
       }
 
     },
-    //选择已读 未读 
+    //选择已读 未读
     changeRead(item) {
       let self = this
       self.loading = true

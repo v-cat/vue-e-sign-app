@@ -5,11 +5,12 @@ import persenalnav from '../PersenCenterNav/PersenCenterNav.vue'
 import foot from '../Foot/Foot.vue'
 export default {
   data() {
+
     return {
 
       flag: 0,
       showLogin: true,
-      showRegister: false,
+      showRegister: true,
       showTishi: false,
       tishi: '',
       username: '',
@@ -19,6 +20,7 @@ export default {
       checked: true,
       currentPage4: 4,
       tableData: [],
+      isInit: false,
       currentRow: null,
       paging: {
         current: 1, // 当前页数 从 1 开始
@@ -91,8 +93,11 @@ export default {
             self.flag = 0
             self.paging.total = result['count']
             self.state = vstateStr
-            console.log(self.state)
-            self.tableData = result.rows
+            // console.log(self.state)
+            self.tableData = result.rows.rows
+            if (result.rows.isInit === 1) {
+              self.isInit = true
+            }
             self.loading = false
           } else if (result.code !== 0) {
             self.$alert(result.msg, '提示', {
@@ -114,7 +119,6 @@ export default {
         }
       })
     },
-
     //时间格式化
     dateFormat: function (row, column) {
       var date = row[column.property];
@@ -126,8 +130,10 @@ export default {
     Preview: function (id) {
       let self = this
       window.localStorage.setItem('Id', id)
+      window.localStorage.setItem('isSign', 0)
       self.$router.replace({
-        name: 'Preview'
+        // name: 'Preview'
+        name: 'signOcx'
       })
     },
     HandSign(id) {
@@ -140,10 +146,49 @@ export default {
     GoSign: function (id) {
       let self = this
       window.localStorage.setItem('Id', id)
+      window.localStorage.setItem('isSign', 1)
       self.$router.replace({
-        name: 'Sign'
+        // name: 'Sign'
+        name: 'signOcx'
       })
     },
+    //同步
+    SyncPPList() {
+      let self = this
+      self.loading = true
+      // self.isActive = vstateStr
+      // self.flag = vstateStr
+      // 获取合同列表
+      self.$api.Base({
+        url: self.$url.Erecord.SyncPPList,
+        params: {},
+        headers: {
+          'WCOSIGNTOKEN': utils.Auth()
+        },
+        suc: function (result) {
+          if (result.code === 0) {
+            alert('success')
+            self.loading = false
+          } else if (result.code !== 0) {
+            self.$alert(result.msg, '提示', {
+              type: 'warning',
+              callback: () => {}
+            })
+            self.loading = false
+          }
+        },
+        err: function () {
+          self.$alert('获取信息错误，请检查网络。', '提示', {
+            type: 'error',
+            callback: () => {
+              self.$router.replace({
+                name: 'Error'
+              })
+            }
+          })
+        }
+      })
+    }
 
   }
 }

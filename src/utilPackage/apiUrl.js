@@ -36,7 +36,8 @@ export default {
     Add: 'ctrl/eseal/addEseal',
     // 获取印章
     GetEseal: 'ctrl/eseal/listActivedEseal',
-    GetQRCode: '/api/eseal/getQRCode'
+    GetQRCode: '/api/eseal/getQRCode',
+    AddBase: 'ctrl/eseal/addBase',
   },
   //上传合同
   Erecord: {
@@ -45,18 +46,25 @@ export default {
     GetErecord: 'ctrl/erecord/getErecord',
     Sign: 'ctrl/erecord/signErecord',
     Verify: 'ctrl/erecord/verifyErecord',
+    GetErecordOcx: 'ctrl/erecord/getErecordOcx',
+    //保存
+    Save: 'ctrl/erecord/signAndSend',
     //待我签
     SignNews: 'ctrl/erecord/countErecord',
     //最新消息
     // recentNews: '',
+    //合同
     ListErecord: 'ctrl/erecord/listErecord',
+    //同步
+    Init: 'ctrl/cuccCtrl/init',
+    //同步订单
+    SyncPPList: 'ctrl/cuccCtrl/syncPPList',
     //合同验签
     SignInfo: 'api/erecord/getErecordSignInfo'
   },
   // 联系人
   Contact: {
     List: 'ctrl/contactCtrl/list',
-
   },
   // 手写签名
   SignHandWriting: {
@@ -67,7 +75,6 @@ export default {
   HangSign: {
     getQRCode: 'api/erecord/getQRCode',
     isUpload: 'api/erecord/isUpload'
-
   },
   Term: {
     Add: 'ctrl/tsCtrl/add'

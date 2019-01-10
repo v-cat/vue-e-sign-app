@@ -1,5 +1,10 @@
 <template>
-  <div class="signature" v-loading="loading" element-loading-text="拼命加载中" element-loading-background="rgba(236,235, 235, 0.8)">
+  <div
+    class="signature"
+    v-loading="loading"
+    element-loading-text="拼命加载中"
+    element-loading-background="rgba(236,235, 235, 0.8)"
+  >
 
     <!-- 签名 印章 -->
 
@@ -16,14 +21,26 @@
             </div>
             <div class="sign-name-info">
               <div class="signature-navs">
-                <router-link to="/accountManagement/signature/seal" class="signature-infor-words">
+                <router-link
+                  to="/accountManagement/signature/seal"
+                  class="signature-infor-words"
+                >
                   <!-- v-bind:class="{managementActive: isActived}"  v-bind:class="{managementActive: isActived1}"-->
                   <a> 印章管理</a>
                 </router-link>
-                <router-link to="/accountManagement/signature/upload" class="signature-infor-words ">
+                <router-link
+                  to="/accountManagement/signature/uploading"
+                  class="signature-infor-words "
+                >
                   <a> 上传印章</a>
                 </router-link>
-                <router-link to="/accountManagement/signature/signhand" class="signature-infor-words">
+                <!-- <router-link to="/accountManagement/signature/upload" class="signature-infor-words ">
+                  <a> 上传印章2</a>
+                </router-link> -->
+                <router-link
+                  to="/accountManagement/signature/signhand"
+                  class="signature-infor-words"
+                >
                   <a> 手写签名</a>
                 </router-link>
               </div>
@@ -37,6 +54,6 @@
   </div>
 </template>
 <style>
-@import './signature.css';
+@import "./signature.css";
 </style>
 <script src='./signature.js'></script>

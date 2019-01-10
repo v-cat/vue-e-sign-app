@@ -215,8 +215,9 @@ export default {
             // var Id = result.rows
             self.loading.upload = false
             window.localStorage.setItem('Id', result.rows)
+            window.localStorage.setItem('isSign', 1)
             self.$router.replace({
-              name: 'Sign',
+              name: 'signOcx',
             })
           } else {
             self.$alert('保存合同失败,' + result.msg, '提示', {

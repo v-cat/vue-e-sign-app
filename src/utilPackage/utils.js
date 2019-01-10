@@ -77,38 +77,24 @@ export default {
       var ocx = document.getElementById('iStylePDF')
       if (ocx) {
         // ocx.zIndex = 999
-        ocx.style.height = '100%'
-        // alert('pin')
+        ocx.style.height = '0px'
       }
-      var sign = prompt('请输入ping码')
-      if (sign != null) {
+      view.$prompt('请输入ping码', '提示', {
+        confirmButtonText: '确定',
+        cancelButtonText: '取消',
+        inputType: 'password',
+        inputPattern: /[a-zA-Z0-9]{1,12}/
+      }).then(({
+        value
+      }) => {
         ping = value
         callback(ping)
-      }
-      // there are many ways to use the prompt feature
-      // var sign = window.prompt ()
-      // open the blank prompt window
-      // var sign = prompt()
-      //  open the blank prompt window
-      // var sign = window.prompt('Are you feeling lucky')
-      // open the window with Text "Are you feeling lucky"
-      // var sign = window.prompt('Are you feeling lucky', 'sure')
-      // open the window with Text "Are you feeling lucky" and default value "sure"
-
-      // view.$prompt('请输入ping码', '提示', {
-      //   confirmButtonText: '确定',
-      //   cancelButtonText: '取消',
-      //   inputType: 'password',
-      //   inputPattern: /[a-zA-Z0-9]{1,12}/
-      // }).then(({value}) => {
-      //   ping = value
-      //   callback(ping)
-      // }).catch(() => {
-      //   callback('')
-      // }
-      // )
+      }).catch(() => {
+        callback('')
+      })
     }
   },
+
   // ping清除
   ClearPing() {
     ping = ''
